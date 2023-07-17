@@ -1,2 +1,2 @@
 # wp-shop
-Nowe repozytorium Wordpress
+Nowe repozytorium Wordpress - sklep
