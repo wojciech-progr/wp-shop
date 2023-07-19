@@ -1,0 +1,19 @@
+.mainContainer * {
+    font-family: 'Lora', serif;
+}
+
+.footer {
+    background-color: #1a1a1a;
+}
+
+.footer__option {
+    color: #797979;
+}
+
+.header {
+    background-color: #1a1a1a;
+}
+
+.header__option {
+    color: #797979;
+}
