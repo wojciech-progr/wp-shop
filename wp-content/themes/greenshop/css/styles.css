@@ -1,13 +1,39 @@
-.mainContainer * {
-    font-family: 'Lora', serif;
-}
-
 .footer {
     background-color: #1a1a1a;
+    padding: 50px 0px 50px 0px;
 }
 
 .footer__option {
-    color: #797979;
+    color: rgb(238, 238, 238)
+}
+
+.footer__contactForm {
+    color: rgb(238, 238, 238)
+}
+
+.footer__icons--instagram { 
+    position: relative;
+}
+
+.footer__icons--instagram:before {
+    content: "\f16d";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: rgb(238, 238, 238);
+    font-size: 40px;
+}
+
+.footer__option--title {
+    color: #808080;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.footer__option--icons {
+    display: inline;
+    margin-right: 10px;
 }
 
 .header {
@@ -15,5 +41,5 @@
 }
 
 .header__option {
-    color: #797979;
+    color: rgb(238, 238, 238)
 }
