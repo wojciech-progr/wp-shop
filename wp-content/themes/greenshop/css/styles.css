@@ -9,15 +9,16 @@ ul {
 .footer {
     background-color: #1a1a1a;
     padding: 50px 0px 50px 0px;
+    font-family: 'Lora', serif;
 }
 
 .footer__option {
     color: rgb(238, 238, 238);
     -webkit-transition: color 1s;
-    -moz-transition:    color 1s;
-    -ms-transition:     color 1s;
-    -o-transition:      color 1s;
-    transition:         color 1s;
+    -moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s;
 }
 
 .footer__option:hover {
@@ -28,7 +29,7 @@ ul {
     color: rgb(238, 238, 238)
 }
 
-.footer__icons--instagram { 
+.footer__icons--instagram {
     position: relative;
 }
 
@@ -42,7 +43,7 @@ ul {
     font-size: 40px;
 }
 
-.footer__icons--facebook { 
+.footer__icons--facebook {
     position: relative;
 }
 
@@ -57,7 +58,7 @@ ul {
     color: #3b5998;
 }
 
-.footer__icons--youtube { 
+.footer__icons--youtube {
     position: relative;
 }
 
@@ -83,9 +84,47 @@ ul {
 }
 
 .header {
+    font-family: 'Lora';
     background-color: #1a1a1a;
+    padding: 50px 0px 50px 0px;
+
 }
 
 .header__option {
-    color: rgb(238, 238, 238)
+    color: black;
+    display: inline-block;
+    padding: 10px 40px 10px 40px;
+    background-color: white;
+    min-width: 250px;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    margin-right: 15px;
+}
+
+.header__option--arrow:before {
+    content: "\f063";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #1a1a1a;
+    font-size: 22px;
+    position: absolute;
+    right: 15px;
+    top: calc(50% - 14px);
+}
+
+.header__logo {
+    width: 100px;
+}
+
+.header__menu {
+    display: inline;
+    vertical-align: middle;
+}
+
+.mainContainer {
+    min-height: 100px;
+    background-color: #f5f5f5;
 }
