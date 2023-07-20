@@ -4,8 +4,8 @@
 <head>
 
   <meta charset=<?php bloginfo('charset'); ?>>
-  <?php /* Sprawdzamy, czy podstrona jest wyszukiwarką. Jeśli tak, zabraniamy indeksowania treści. */?> 
-  <?php if (is_search()) : ?> 
+  <?php /* Sprawdzamy, czy podstrona jest wyszukiwarką. Jeśli tak, zabraniamy indeksowania treści. */?>
+  <?php if (is_search()): ?>
     <meta name="robots" content="noindex, nofollow" />
   <?php endif; ?>
 
@@ -43,7 +43,7 @@
   </header>
 
   <nav class="header">
-    <div class="container-fluid">
+    <div class="container-fluid header__container">
       <div class="row">
         <div class="col-sm-12">
           <a href="<?= esc_url(home_url()) ?>">
