@@ -102,8 +102,8 @@ ul {
     margin-right: 15px;
 }
 
-.header__option--arrow:before {
-    content: "\f063";
+.header__option--events:before {
+    content: "\f133";
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
@@ -111,8 +111,34 @@ ul {
     color: #1a1a1a;
     font-size: 22px;
     position: absolute;
-    right: 15px;
-    top: calc(50% - 14px);
+    left: 20px;
+    top: calc(50% - 17px);
+}
+
+.header__option--guitar:before {
+    content: "\f7a6";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #1a1a1a;
+    font-size: 22px;
+    position: absolute;
+    left: 20px;
+    top: calc(50% - 17px);
+}
+
+.header__option--blog:before {
+    content: "\f781";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #1a1a1a;
+    font-size: 22px;
+    position: absolute;
+    left: 20px;
+    top: calc(50% - 17px);
 }
 
 .header__logo {
@@ -129,6 +155,29 @@ ul {
 }
 
 .mainContainer {
-    min-height: 100px;
+    min-height: 250px;
     background-color: #f5f5f5;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__submenu {
+    position: absolute;
+    background-color: white;
+    left: 0;
+    min-width: 250px;
+    padding: 10px 30px 10px 30px;
+}
+
+.header__submenu--option {
+    font-size: 20px;
+    border-bottom: 2px solid #f0f0f0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.footer_option--social {
+    color: white;
 }

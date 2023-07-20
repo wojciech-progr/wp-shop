@@ -9,7 +9,7 @@
     <meta name="robots" content="noindex, nofollow" />
   <?php endif; ?>
 
-  <title>greenshop.com</title>
+  <title>example.pl</title>
 
   <link rel="icon" type="image/x-icon" href="<?= GREENSHOP_THEME_URL ?>/images/favicon.ico">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -50,9 +50,30 @@
             <img class="header__logo" alt="Logo sklepu" src="<?= GREENSHOP_THEME_URL ?>/images/lorem-ipsum-logo.jpg">
           </a>
           <ul class="header__menu">
-            <li class="header__option header__option--arrow">Products</li>
-            <li class="header__option header__option--arrow">Blog</li>
-            <li class="header__option header__option--arrow">Contact us</li>
+            <li class="header__option header__option--guitar">
+              Products
+              <ul class="header__submenu">
+                <li class="header__submenu--option">Guitars</li>
+                <li class="header__submenu--option">Drums</li>
+                <li class="header__submenu--option">Keys</li>
+                <li class="header__submenu--option">Strings</li>
+              </ul>
+            </li>
+            <li class="header__option header__option--events">
+              Events
+              <ul class="header__submenu">
+                <li class="header__submenu--option">Germany</li>
+                <li class="header__submenu--option">Poland</li>
+                <li class="header__submenu--option">Austria</li>
+              </ul>
+            </li>
+            <li class="header__option header__option--blog">
+              Blog
+              <ul class="header__submenu">
+                <li class="header__submenu--option">Music theory</li>
+                <li class="header__submenu--option">Sound engineering</li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>
