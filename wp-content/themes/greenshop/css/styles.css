@@ -12,7 +12,7 @@ ul {
     font-family: 'Lora', serif;
 }
 
-.footer__option {
+.footer__option--link {
     color: rgb(238, 238, 238);
     -webkit-transition: color 1s;
     -moz-transition: color 1s;
@@ -21,7 +21,7 @@ ul {
     transition: color 1s;
 }
 
-.footer__option:hover {
+.footer__option--link:hover {
     color: red;
 }
 

@@ -4,18 +4,18 @@
             <div class="row">
                 <ul class="col-sm-12 col-lg-3 footer__column">
                     <li class="footer__option--title">Partner zone</li>
-                    <a href="#" class="footer__option--link"><li class="footer__option">Join</li></a>
-                    <a href="#" class="footer__option--link"><li class="footer__option">I'm already a partner</li></a>
+                    <li class="footer__option"><a href="#" class="footer__option--link">Join</a></li>
+                    <li class="footer__option"><a href="#" class="footer__option--link">I'm already a partner</a></li>
                 </ul>
                 <ul class="col-sm-12 col-lg-3 footer__column">
                     <li class="footer__option--title">About Us</li>
-                    <a href="#" class="footer__option--link"><li class="footer__option">Meet our team</li></a>
-                    <a href="#" class="footer__option--link"><li class="footer__option">Explore the products</li></a>
+                    <li class="footer__option"><a href="#" class="footer__option--link">Meet our team</a></li>
+                    <li class="footer__option"><a href="#" class="footer__option--link">Explore the products</a></li>
                 </ul>
                 <ul class="col-sm-12 col-lg-3 footer__column">
                     <li class="footer__option--title">Contact us</li>
-                    <a href="#" class="footer__option--link"><li class="footer__option">+48 123 123 123</li></a>
-                    <a href="#" class="footer__option--link"><li class="footer__option">contact@greenshop.pl</li></a>
+                    <li class="footer__option"><a href="#" class="footer__option--link">+48 123 123 123</a></li>
+                    <li class="footer__option"><a href="#" class="footer__option--link">contact@greenshop.pl</a></li>
                 </ul>
                 <ul class="col-sm-12 col-lg-3 footer__column">
                     <li class="footer__option--title">Social media</li>
