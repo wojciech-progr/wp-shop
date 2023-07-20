@@ -14,8 +14,8 @@
                 </ul>
                 <ul class="col-sm-12 col-lg-3 footer__column">
                     <li class="footer__option--title">Contact us</li>
-                    <li class="footer__option"><a href="#" class="footer__option--link">+48 123 123 123</a></li>
-                    <li class="footer__option"><a href="#" class="footer__option--link">contact@greenshop.pl</a></li>
+                    <li class="footer__option"><a href="tel:+48 123 123 123" class="footer__option--link">+48 123 123 123</a></li>
+                    <li class="footer__option"><a href="mailto:contact@greenshop.pl" class="footer__option--link">contact@greenshop.pl</a></li>
                 </ul>
                 <ul class="col-sm-12 col-lg-3 footer__column">
                     <li class="footer__option--title">Social media</li>
