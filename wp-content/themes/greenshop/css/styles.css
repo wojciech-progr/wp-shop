@@ -1,10 +1,27 @@
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
 .footer {
     background-color: #1a1a1a;
     padding: 50px 0px 50px 0px;
 }
 
 .footer__option {
-    color: rgb(238, 238, 238)
+    color: rgb(238, 238, 238);
+    -webkit-transition: color 1s;
+    -moz-transition:    color 1s;
+    -ms-transition:     color 1s;
+    -o-transition:      color 1s;
+    transition:         color 1s;
+}
+
+.footer__option:hover {
+    color: red;
 }
 
 .footer__contactForm {
@@ -21,7 +38,36 @@
     font-style: normal;
     font-weight: normal;
     text-decoration: inherit;
+    color: #fccc63;
+    font-size: 40px;
+}
+
+.footer__icons--facebook { 
+    position: relative;
+}
+
+.footer__icons--facebook:before {
+    content: "\f082";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
     color: rgb(238, 238, 238);
+    font-size: 40px;
+    color: #3b5998;
+}
+
+.footer__icons--youtube { 
+    position: relative;
+}
+
+.footer__icons--youtube:before {
+    content: "\f431";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #FF0000;
     font-size: 40px;
 }
 
