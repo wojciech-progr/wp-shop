@@ -57,7 +57,7 @@
                 <li class="header__submenu--option">Drums</li>
                 <li class="header__submenu--option">Keys</li>
                 <li class="header__submenu--option">Strings</li>
-                <li class="header__submenu--option">Deal of the day</li>
+                <li class="header__submenu--option header__submenu--deal">Deal of the day</li>
               </ul>
             </li>
             <li id="header__option-2" onclick="showSubmenu(2)" class="header__option header__option--events">
