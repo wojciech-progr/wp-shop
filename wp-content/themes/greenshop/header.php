@@ -50,16 +50,17 @@
             <img class="header__logo" alt="Logo sklepu" src="<?= GREENSHOP_THEME_URL ?>/images/lorem-ipsum-logo.jpg">
           </a>
           <ul class="header__menu">
-            <li class="header__option header__option--guitar">
+            <li id="header__option-1" onclick="showSubmenu(1)" class="header__option header__option--guitar">
               Products
               <ul class="header__submenu">
                 <li class="header__submenu--option">Guitars</li>
                 <li class="header__submenu--option">Drums</li>
                 <li class="header__submenu--option">Keys</li>
                 <li class="header__submenu--option">Strings</li>
+                <li class="header__submenu--option">Deal of the day</li>
               </ul>
             </li>
-            <li class="header__option header__option--events">
+            <li id="header__option-2" onclick="showSubmenu(2)" class="header__option header__option--events">
               Events
               <ul class="header__submenu">
                 <li class="header__submenu--option">Germany</li>
@@ -67,7 +68,7 @@
                 <li class="header__submenu--option">Austria</li>
               </ul>
             </li>
-            <li class="header__option header__option--blog">
+            <li id="header__option-3" onclick="showSubmenu(3)" class="header__option header__option--blog">
               Blog
               <ul class="header__submenu">
                 <li class="header__submenu--option">Music theory</li>

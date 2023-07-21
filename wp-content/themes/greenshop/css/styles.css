@@ -181,3 +181,11 @@ ul {
 .footer_option--social {
     color: white;
 }
+
+.header__submenu {
+    display: none;
+}
+
+.showSubmenu .header__submenu {
+    display: block;
+}
