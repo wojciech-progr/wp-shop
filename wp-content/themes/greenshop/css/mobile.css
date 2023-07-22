@@ -17,7 +17,7 @@
 /* Extra large xl - główny breakpoint do RWD*/
 @media (min-width: 1200px) {}
 
-@media (max-width: 1119px) {
+@media (max-width: 1199px) {
     .header__menu {
         display: none;
     }
