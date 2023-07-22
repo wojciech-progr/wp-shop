@@ -9,6 +9,8 @@
     <meta name="robots" content="noindex, nofollow" />
   <?php endif; ?>
 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>example.pl</title>
 
   <link rel="icon" type="image/x-icon" href="<?= GREENSHOP_THEME_URL ?>/images/favicon.ico">
@@ -19,6 +21,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="<?= GREENSHOP_THEME_URL ?>/style.css" />
   <link rel="stylesheet" href="<?= GREENSHOP_THEME_URL ?>/css/styles.css" />
+  <link rel="stylesheet" href="<?= GREENSHOP_THEME_URL ?>/css/mobile.css" />
 
   <script src="<?= GREENSHOP_THEME_URL ?>/js/scripts.js"></script>
   <script src="https://kit.fontawesome.com/fc9a6b4d3f.js" crossorigin="anonymous"></script>
@@ -38,14 +41,10 @@
 
 <body <?= body_class(); ?>>
 
-  <header>
-
-  </header>
-
   <nav class="header">
-    <div class="container-fluid header__container">
+    <div class="container">
       <div class="row">
-        <div class="col-sm-12">
+        <div>
           <a href="<?= esc_url(home_url()) ?>">
             <img class="header__logo" alt="Logo sklepu" src="<?= GREENSHOP_THEME_URL ?>/images/lorem-ipsum-logo.jpg">
           </a>

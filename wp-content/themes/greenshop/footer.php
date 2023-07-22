@@ -1,18 +1,18 @@
-<footer>
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <ul class="col-sm-12 col-lg-3 footer__column">
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer__menu">
+                <ul class=" col-xl-3 footer__column">
                     <li class="footer__option--title">Partner zone</li>
                     <li class="footer__option"><a href="#" class="footer__option--link">I'm already a partner</a></li>
                     <li class="footer__option"><a href="#" class="footer__option--link">Join</a></li>
                 </ul>
-                <ul class="col-sm-12 col-lg-3 footer__column">
+                <ul class=" col-xl-3 footer__column">
                     <li class="footer__option--title">About Us</li>
                     <li class="footer__option"><a href="#" class="footer__option--link">Meet our team</a></li>
                     <li class="footer__option"><a href="#" class="footer__option--link">Explore the products</a></li>
                 </ul>
-                <ul class="col-sm-12 col-lg-3 footer__column">
+                <ul class=" col-xl-3 footer__column">
                     <li class="footer__option--title">Contact us</li>
                     <li class="footer__option">
                         <a href="tel:+48 123 123 123" class="footer__option--link">
@@ -25,7 +25,7 @@
                         </a>
                     </li>
                 </ul>
-                <ul class="col-sm-12 col-lg-3 footer__column">
+                <ul class=" col-xl-3 footer__column">
                     <li class="footer__option--title footer_option--social">Social media</li>
                     <li class="footer__option footer__option--icons">
                         <a href="https://www.instagram.com/">
@@ -42,8 +42,8 @@
                             <i class="footer__icons--youtube"></i>
                         </a>
                     </li>
-                </ul>
             </div>
+            </ul>
         </div>
     </div>
 </footer>

@@ -26,7 +26,7 @@ ul {
 }
 
 .footer__contactForm {
-    color: rgb(238, 238, 238)
+    color: rgb(238, 238, 238);
 }
 
 .footer__icons--instagram {
@@ -95,9 +95,9 @@ ul {
     display: inline-block;
     padding: 10px 40px 10px 40px;
     background-color: white;
-    min-width: 250px;
+    min-width: 200px;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     position: relative;
     margin-right: 15px;
 }
@@ -154,9 +154,6 @@ ul {
     vertical-align: middle;
 }
 
-.header__container {
-    max-width: 1600px;
-}
 
 .mainContainer {
     min-height: 250px;
@@ -170,12 +167,12 @@ ul {
     position: absolute;
     background-color: white;
     left: 0;
-    min-width: 250px;
+    min-width: 200px;
     padding: 10px 0px 10px 0px;
 }
 
 .header__submenu--option {
-    font-size: 20px;
+    font-size: 15px;
     border-bottom: 2px solid #f0f0f0;
     margin-bottom: 10px;
     padding-bottom: 10px;
