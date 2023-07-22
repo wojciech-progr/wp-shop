@@ -83,14 +83,14 @@ ul {
     margin-right: 10px;
 }
 
-.header {
+.navbar {
     font-family: 'Lora';
     background-color: #1a1a1a;
     padding: 50px 0px 50px 0px;
 
 }
 
-.header__option {
+.navbar__option {
     color: black;
     display: inline-block;
     padding: 10px 40px 10px 40px;
@@ -102,7 +102,7 @@ ul {
     margin-right: 15px;
 }
 
-.header__option--events:before {
+.navbar__option--events:before {
     content: "\f133";
     font-family: FontAwesome;
     font-style: normal;
@@ -115,7 +115,7 @@ ul {
     top: calc(50% - 17px);
 }
 
-.header__option--guitar:before {
+.navbar__option--guitar:before {
     content: "\f7a6";
     font-family: FontAwesome;
     font-style: normal;
@@ -128,11 +128,11 @@ ul {
     top: calc(50% - 17px);
 }
 
-.header__option:hover {
+.navbar__option:hover {
     cursor: pointer;
 }
 
-.header__option--blog:before {
+.navbar__option--blog:before {
     content: "\f781";
     font-family: FontAwesome;
     font-style: normal;
@@ -145,11 +145,11 @@ ul {
     top: calc(50% - 17px);
 }
 
-.header__logo {
+.navbar__logo {
     width: 100px;
 }
 
-.header__menu {
+.navbar__menu {
     display: inline;
     vertical-align: middle;
 }
@@ -163,7 +163,7 @@ ul {
     background-size: cover;
 }
 
-.header__submenu {
+.navbar__submenu {
     position: absolute;
     background-color: white;
     left: 0;
@@ -171,7 +171,7 @@ ul {
     padding: 10px 0px 10px 0px;
 }
 
-.header__submenu--option {
+.navbar__submenu--option {
     font-size: 15px;
     border-bottom: 2px solid #f0f0f0;
     margin-bottom: 10px;
@@ -179,7 +179,7 @@ ul {
     padding-top: 10px;
 }
 
-.header__submenu--option:hover {
+.navbar__submenu--option:hover {
     background-color: #B6D0E2;
 }
 
@@ -187,7 +187,7 @@ ul {
     color: white;
 }
 
-.header__submenu {
+.navbar__submenu {
     display: none;
 }
 
@@ -195,15 +195,15 @@ ul {
     background-color: #ADD8E6;
 }
 
-.showSubmenu .header__submenu {
+.showSubmenu .navbar__submenu {
     display: block;
 }
 
-.header__submenu--deal {
+.navbar__submenu--deal {
     color: white;
     background-color: #e50000;
 }
 
-.header__submenu--deal:hover {
+.navbar__submenu--deal:hover {
     background-color: #8a0000;
 }

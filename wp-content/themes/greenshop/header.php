@@ -41,41 +41,40 @@
 
 <body <?= body_class(); ?>>
 
-  <nav class="header">
+  <nav class="navbar">
     <div class="container">
       <div class="row">
         <div>
           <a href="<?= esc_url(home_url()) ?>">
-            <img class="header__logo" alt="Logo sklepu" src="<?= GREENSHOP_THEME_URL ?>/images/lorem-ipsum-logo.jpg">
+            <img class="navbar__logo" alt="Logo sklepu" src="<?= GREENSHOP_THEME_URL ?>/images/lorem-ipsum-logo.jpg">
           </a>
-          <ul class="header__menu">
-            <li id="header__option-1" onclick="showSubmenu(1)" class="header__option header__option--guitar">
-              Products
-              <ul class="header__submenu">
-                <li class="header__submenu--option">Guitars</li>
-                <li class="header__submenu--option">Drums</li>
-                <li class="header__submenu--option">Keys</li>
-                <li class="header__submenu--option">Strings</li>
-                <li class="header__submenu--option header__submenu--deal">Deal of the day</li>
+          <ul class="navbar__menu">
+            <li id="navbar__option-1" onclick="showSubmenu(1)" class="navbar__option navbar__option--guitar">
+              <strong>Products</strong>
+              <ul class="navbar__submenu">
+                <li class="navbar__submenu--option">Guitars</li>
+                <li class="navbar__submenu--option">Drums</li>
+                <li class="navbar__submenu--option">Keys</li>
+                <li class="navbar__submenu--option">Strings</li>
+                <li class="navbar__submenu--option navbar__submenu--deal">Deal of the day</li>
               </ul>
             </li>
-            <li id="header__option-2" onclick="showSubmenu(2)" class="header__option header__option--events">
-              Events
-              <ul class="header__submenu">
-                <li class="header__submenu--option">Germany</li>
-                <li class="header__submenu--option">Poland</li>
-                <li class="header__submenu--option">Austria</li>
+            <li id="navbar__option-2" onclick="showSubmenu(2)" class="navbar__option navbar__option--events">
+              <strong>Events</strong>
+              <ul class="navbar__submenu">
+                <li class="navbar__submenu--option">Germany</li>
+                <li class="navbar__submenu--option">Poland</li>
+                <li class="navbar__submenu--option">Austria</li>
               </ul>
             </li>
-            <li id="header__option-3" onclick="showSubmenu(3)" class="header__option header__option--blog">
-              Blog
-              <ul class="header__submenu">
-                <li class="header__submenu--option">Music theory</li>
-                <li class="header__submenu--option">Sound engineering</li>
+            <li id="navbar__option-3" onclick="showSubmenu(3)" class="navbar__option navbar__option--blog">
+              <strong>Blog</strong>
+              <ul class="navbar__submenu">
+                <li class="navbar__submenu--option">Music theory</li>
+                <li class="navbar__submenu--option">Sound engineering</li>
               </ul>
             </li>
           </ul>
         </div>
       </div>
-    </div>
   </nav>

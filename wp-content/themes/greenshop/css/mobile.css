@@ -14,11 +14,11 @@
 
 @media (max-width: 991px) {}
 
-/* Extra large xl - główny breakpoint do RWD*/
+/* Extra large xl - główny breakpoint do RWD */
 @media (min-width: 1200px) {}
 
 @media (max-width: 1199px) {
-    .header__menu {
+    .navbar__menu {
         display: none;
     }
 
