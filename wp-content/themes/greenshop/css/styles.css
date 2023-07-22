@@ -87,6 +87,7 @@ ul {
     font-family: 'Lora';
     background-color: #1a1a1a;
     padding: 50px 0px 50px 0px;
+    border-bottom: 10px solid black;
 
 }
 
@@ -167,6 +168,7 @@ ul {
     position: absolute;
     background-color: white;
     left: 0;
+    top: 50px;
     min-width: 200px;
     padding: 10px 0px 10px 0px;
 }

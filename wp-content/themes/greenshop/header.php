@@ -4,7 +4,7 @@
 <head>
 
   <meta charset=<?php bloginfo('charset'); ?>>
-  <?php /* Sprawdzamy, czy podstrona jest wyszukiwarką. Jeśli tak, zabraniamy indeksowania treści. */?>
+  <?php /* If this is search site do not allow indexing (for example google) */?>
   <?php if (is_search()): ?>
     <meta name="robots" content="noindex, nofollow" />
   <?php endif; ?>
@@ -29,15 +29,15 @@
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>
 
-  <?php /* Informuje innych właścicieli witryn, że umieściłem link do ich treści. */?>
+  <?php /* Informs another websites that i am linking to them */?>
   <link rel="pingback" href="<?= bloginfo('pingback_url'); ?>">
 
-  <?php /* Action hook - wykorzystują to wtyczki, dzięki funkcji nie trzeba edytować plików motywu. */?>
+  <?php /* Action hook - Plugins uses that, so they dont have to edit theme files directly. */?>
   <?= wp_head(); ?>
 
 </head>
 
-<?php /* Dopisuje klasy zaleznie od strony na której się znajdujemy, np. stylowanie elementów zależnie od tego, czy user jest zalogowany lub strona 404.  */?>
+<?php /* Adds classes depending on the site, for example 404 or if user is logged in  */?>
 
 <body <?= body_class(); ?>>
 
@@ -56,6 +56,7 @@
                 <li class="navbar__submenu--option">Drums</li>
                 <li class="navbar__submenu--option">Keys</li>
                 <li class="navbar__submenu--option">Strings</li>
+                <li class="navbar__submenu--option">All products</li>
                 <li class="navbar__submenu--option navbar__submenu--deal">Deal of the day</li>
               </ul>
             </li>
@@ -65,6 +66,7 @@
                 <li class="navbar__submenu--option">Germany</li>
                 <li class="navbar__submenu--option">Poland</li>
                 <li class="navbar__submenu--option">Austria</li>
+                <li class="navbar__submenu--option">Whole world</li>
               </ul>
             </li>
             <li id="navbar__option-3" onclick="showSubmenu(3)" class="navbar__option navbar__option--blog">
@@ -72,6 +74,22 @@
               <ul class="navbar__submenu">
                 <li class="navbar__submenu--option">Music theory</li>
                 <li class="navbar__submenu--option">Sound engineering</li>
+              </ul>
+            </li>
+            <li id="navbar__option-4" onclick="showSubmenu(4)" class="navbar__option">
+              <strong>Musician fights</strong>
+              <ul class="navbar__submenu">
+                <li class="navbar__submenu--option">Guitarists</li>
+                <li class="navbar__submenu--option">Drummers</li>
+                <li class="navbar__submenu--option">Bands</li>
+              </ul>
+            </li>
+            <li id="navbar__option-4" onclick="showSubmenu(4)" class="navbar__option">
+              <strong>About us</strong>
+              <ul class="navbar__submenu">
+                <li class="navbar__submenu--option">Contact us</li>
+                <li class="navbar__submenu--option">Terms of usage</li>
+                <li class="navbar__submenu--option">Privacy policy</li>
               </ul>
             </li>
           </ul>
