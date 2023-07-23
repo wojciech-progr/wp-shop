@@ -14,10 +14,6 @@ ul {
 
 .footer__option--link {
     color: rgb(238, 238, 238);
-    -webkit-transition: color 1s;
-    -moz-transition: color 1s;
-    -ms-transition: color 1s;
-    -o-transition: color 1s;
     transition: color 1s;
 }
 
@@ -96,6 +92,7 @@ ul {
     display: inline-block;
     padding: 10px 40px 10px 40px;
     background-color: white;
+    transition: background-color 1s;
     min-width: 200px;
     text-align: center;
     font-size: 20px;
@@ -179,6 +176,8 @@ ul {
     margin-bottom: 10px;
     padding-bottom: 10px;
     padding-top: 10px;
+    background-color: white;
+    transition: 1s;
 }
 
 .navbar__submenu--option:hover {
@@ -195,6 +194,7 @@ ul {
 
 .showSubmenu {
     background-color: #ADD8E6;
+    transition: background-color 1s;
 }
 
 .showSubmenu .navbar__submenu {
