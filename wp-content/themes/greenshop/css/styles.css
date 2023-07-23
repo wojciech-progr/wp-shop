@@ -98,6 +98,7 @@ ul {
     font-size: 20px;
     position: relative;
     margin-right: 15px;
+    border-bottom: 5px solid #8a0000;
 }
 
 .navbar__option--events:before {
@@ -177,7 +178,7 @@ ul {
     padding-bottom: 10px;
     padding-top: 10px;
     background-color: white;
-    transition: 1s;
+    transition: 1s;;
 }
 
 .navbar__submenu--option:hover {
