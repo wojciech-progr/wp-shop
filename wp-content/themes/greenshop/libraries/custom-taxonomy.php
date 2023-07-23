@@ -31,10 +31,8 @@ function greenshop_init_posttypes()
         'supports' => array(
             'title',
             'editor',
-            'author',
             'thumbnail',
-            'excerpt',
-            'comments',
+            'author',
             'custom-fields'
         ),
         'has_archive' => true
