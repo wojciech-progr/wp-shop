@@ -15,6 +15,7 @@ ul {
     background-color: #1a1a1a;
     padding: 50px 0px 50px 0px;
     font-family: 'Lora', serif;
+    border-top: 10px solid black;
 }
 
 .footer__option--link {
@@ -174,6 +175,7 @@ ul {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: 10px solid black;
 }
 
 .navbar__submenu {
@@ -247,4 +249,8 @@ ul {
     font-size: 20px;
     font-weight: 800;
     padding-bottom: 15px;
+}
+
+.contentContainer {
+
 }
