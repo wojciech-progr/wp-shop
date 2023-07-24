@@ -77,7 +77,7 @@ function greenshop_init_posttypes()
 
     $fights_args = array(
         'labels' => array(
-            'name' => 'Fights',
+            'name' => 'Fights2',
             'singular_name' => 'Fights',
             'all_items' => 'All fights',
             'add_new' => 'Add new fight',
