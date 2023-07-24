@@ -1,7 +1,7 @@
 // Show submenu
-function showSubmenu(id) {
+function showSubmenu(element) {
 
-    var mainMenu = document.getElementById("navbar__option-" + id);
+    var mainMenu = element;
 
     if (mainMenu.classList.contains("showSubmenu")) {
         mainMenu.classList.remove("showSubmenu");

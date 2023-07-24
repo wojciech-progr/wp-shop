@@ -50,7 +50,7 @@
               src="<?= GREENSHOP_THEME_URL ?>/images/lorem-ipsum-logo.jpg">
           </a>
           <ul class="navbar__menu">
-            <li id="navbar__option-1" onclick="showSubmenu(1)" class="navbar__option navbar__option--guitar">
+            <li onclick="showSubmenu(this)" class="navbar__option navbar__option--guitar">
               <strong>Products</strong>
               <ul class="navbar__submenu">
                 <li class="navbar__submenu--option">Guitars</li>
@@ -61,7 +61,7 @@
                 <li class="navbar__submenu--option navbar__submenu--deal">Deal of the day</li>
               </ul>
             </li>
-            <li id="navbar__option-2" onclick="showSubmenu(2)" class="navbar__option navbar__option--events">
+            <li onclick="showSubmenu(this)" class="navbar__option navbar__option--events">
               <strong>Events</strong>
               <ul class="navbar__submenu">
                 <li class="navbar__submenu--option">Germany</li>
@@ -70,14 +70,14 @@
                 <li class="navbar__submenu--option">Whole world</li>
               </ul>
             </li>
-            <li id="navbar__option-3" onclick="showSubmenu(3)" class="navbar__option navbar__option--blog">
+            <li onclick="showSubmenu(this)" class="navbar__option navbar__option--blog">
               <strong>Blog</strong>
               <ul class="navbar__submenu">
                 <li class="navbar__submenu--option">Music theory</li>
                 <li class="navbar__submenu--option">Sound engineering</li>
               </ul>
             </li>
-            <li id="navbar__option-4" onclick="showSubmenu(4)" class="navbar__option">
+            <li onclick="showSubmenu(this)" class="navbar__option">
               <strong>Musician fights</strong>
               <ul class="navbar__submenu">
                 <li class="navbar__submenu--option">Guitarists</li>
@@ -86,7 +86,7 @@
                 <li class="navbar__submenu--option">All fights</li>
               </ul>
             </li>
-            <li id="navbar__option-5" onclick="showSubmenu(5)" class="navbar__option">
+            <li onclick="showSubmenu(this)" class="navbar__option">
               <strong>About us</strong>
               <ul class="navbar__submenu">
                 <li class="navbar__submenu--option">Contact us</li>
