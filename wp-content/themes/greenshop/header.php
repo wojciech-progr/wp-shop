@@ -86,7 +86,7 @@
                 <li class="navbar__submenu--option">All fights</li>
               </ul>
             </li>
-            <li id="navbar__option-4" onclick="showSubmenu(4)" class="navbar__option">
+            <li id="navbar__option-5" onclick="showSubmenu(5)" class="navbar__option">
               <strong>About us</strong>
               <ul class="navbar__submenu">
                 <li class="navbar__submenu--option">Contact us</li>

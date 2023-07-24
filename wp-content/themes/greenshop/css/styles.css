@@ -234,14 +234,17 @@ ul {
     vertical-align: top;
     padding-bottom: 15px;
     border-bottom: 1px solid #808080;
+    max-width: 200px;
 }
 
 .header__list--option {
     color: white;
+    padding-bottom: 15px;
 }
 
 .header__list--title {
     color: #808080;
     font-size: 20px;
     font-weight: 800;
+    padding-bottom: 15px;
 }

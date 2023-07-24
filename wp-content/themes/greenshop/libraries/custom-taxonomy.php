@@ -76,6 +76,42 @@ function greenshop_init_posttypes()
 
     register_post_type('fights', $fights_args);
 
+    $events_args = array(
+        'labels' => array(
+            'name' => 'Events',
+            'singular_name' => 'Events',
+            'all_items' => 'All events',
+            'add_new' => 'Add new event',
+            'add_new_item' => 'Add new event',
+            'edit_item' => 'Edit event',
+            'new_item' => 'New event',
+            'view_item' => 'See the event',
+            'search_items' => 'Search event',
+            'not_found' => 'Events not found',
+            'not_found_in_trash' => 'Events not found in trash',
+            'parent_item_colon' => ''
+        ),
+        'public' => true,
+        'public_queryable' => true,
+        'show_ui' => true,
+        'query_bar' => true,
+        'rewrite' => true,
+        'capability_type' => 'post',
+        'hierarchical' => false,
+        'menu_position' => 5,
+        'supports' => array(
+            'title',
+            'editor',
+            'thumbnail',
+            'author',
+            'custom-fields',
+            'post-formats',
+        ),
+        'has_archive' => true
+    );
+
+    register_post_type('events', $events_args);
+
 }
 
 add_action('init', 'greenshop_init_taxonomies');
@@ -83,11 +119,9 @@ add_action('init', 'greenshop_init_taxonomies');
 function greenshop_init_taxonomies()
 {
 
-    // connects Cities to Countries, register_post_type() not needed
-
     register_taxonomy(
         'cities',
-        array('countries'),
+        array('countries', 'events'),
         array(
             'hierarchical' => false,
             'labels' => array(
