@@ -45,8 +45,9 @@
     <div class="container">
       <div class="row">
         <div>
-          <a href="<?= esc_url(home_url()) ?>">
-            <img class="navbar__logo" alt="Logo sklepu" src="<?= GREENSHOP_THEME_URL ?>/images/lorem-ipsum-logo.jpg">
+          <a class="navbar__logo" href="<?= esc_url(home_url()) ?>">
+            <img class="navbar__logo--img" alt="Logo sklepu"
+              src="<?= GREENSHOP_THEME_URL ?>/images/lorem-ipsum-logo.jpg">
           </a>
           <ul class="navbar__menu">
             <li id="navbar__option-1" onclick="showSubmenu(1)" class="navbar__option navbar__option--guitar">
@@ -82,6 +83,7 @@
                 <li class="navbar__submenu--option">Guitarists</li>
                 <li class="navbar__submenu--option">Drummers</li>
                 <li class="navbar__submenu--option">Bands</li>
+                <li class="navbar__submenu--option">All fights</li>
               </ul>
             </li>
             <li id="navbar__option-4" onclick="showSubmenu(4)" class="navbar__option">
@@ -92,6 +94,21 @@
                 <li class="navbar__submenu--option">Privacy policy</li>
               </ul>
             </li>
+          </ul>
+          <ul class="header__list">
+            <li class="header__list--title">Latest blog entries</li>
+            <li class="header__list--option">New guitar type becomes best choice for young musicians</li>
+            <li class="header__list--option">Drum technology is evolving rapidly after new research</li>
+          </ul>
+          <ul class="header__list">
+            <li class="header__list--title">Upcoming events</li>
+            <li class="header__list--option">Black Octopus - Vienna</li>
+            <li class="header__list--option">Lost Sailor - Warsaw</li>
+            <li class="header__list--option">Porcupine - Berlin</li>
+          </ul>
+          <ul class="header__list">
+            <li class="header__list--title">Hot offers %</li>
+            <li class="header__list--option">Jackson JS12 DKA Dinky AH FB BLK</li>
           </ul>
         </div>
       </div>
