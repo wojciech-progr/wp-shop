@@ -16,7 +16,7 @@
                 <ul class="col-xl-3 footer__column">
                     <li class="footer__option--title">Contact us</li>
                     <li class="footer__option">
-                        <a href="tel:+48 123 123 123" class="footer__option--link">
+                        <a href="tel:+48123123123" class="footer__option--link">
                             +48 123 123 123
                         </a>
                     </li>

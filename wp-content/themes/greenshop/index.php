@@ -6,12 +6,11 @@
 <section class="contentContainer">
     <div class="container">
         <div class="row">
-            <div class="col-xl-3">
+            <div class="col-md-12 col-xl-6">
                 test
             </div>
         </div>
     </div>
 </section>
 
-</div>
 <?php get_footer(); ?>
