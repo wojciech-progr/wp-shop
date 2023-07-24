@@ -112,4 +112,42 @@ function greenshop_init_posttypes()
     register_post_type('fights', $fights_args);
 
 }
+
+add_action('init', 'greenshop_init_taxonomies');
+
+function greenshop_init_taxonomies()
+{
+
+    // connects Cities to Countries, register_post_type() not needed
+
+    register_taxonomy(
+        'cities',
+        array('countries'),
+        array(
+            'hierarchical' => false,
+            'labels' => array(
+                'name' => 'Cities',
+                'singular_name' => 'Cities',
+                'search_items' => 'Search cities',
+                'popular_items' => 'Popular cities',
+                'all_items' => 'All cities',
+                'edit_item' => 'Edit citiy',
+                'update_item' => 'Update cities',
+                'add_new_item' => 'Add new city',
+                'new_item_name' => 'New city name',
+                'separate_items_with_commas' => 'Separate cities with comas',
+                'add_or_remove_items' => 'Add or remove cities',
+                'choose_from_most_used' => 'Choose from most used cities',
+                'menu_name' => 'Cities'
+            ),
+            'show_ui' => true,
+            'update_count_callback' => '_update_post_term_count',
+            'query_var' => true,
+            'rewrire' => array(
+                'slug' => 'city'
+            )
+        )
+    );
+}
+
 ?>
