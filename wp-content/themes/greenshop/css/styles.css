@@ -161,6 +161,7 @@ ul {
 
 .navbar__logo--img {
     width: 100px;
+    border-radius: 50%;
 }
 
 .navbar__menu {
@@ -259,8 +260,4 @@ ul {
     position: absolute;
     top: 17px;
     right: 15px;
-}
-
-.contentContainer {
-
 }

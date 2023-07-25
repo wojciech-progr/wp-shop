@@ -48,7 +48,7 @@
         <div>
           <a class="navbar__logo" href="<?= esc_url(home_url()) ?>">
             <img class="navbar__logo--img" alt="Shop logo"
-              src="<?= GREENSHOP_THEME_URL ?>/images/lorem-ipsum-logo.jpg">
+              src="<?= GREENSHOP_THEME_URL ?>/images/logo.png">
           </a>
           <ul class="navbar__menu">
             <li onclick="showSubmenu(this)" class="navbar__option navbar__option--guitar">
