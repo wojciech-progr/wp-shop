@@ -100,22 +100,22 @@
           </ul>
           <ul class="header__list">
             <li class="header__list--title">Latest blog entries</li>
-            <li class="header__list--option"><span>test</span>New guitar type becomes best choice for young musicians
+            <li class="header__list--option"><a href="#" class="header__option--link">New guitar type becomes best choice for young musicians</a>
             </li>
-            <li class="header__list--option">Drum technology is evolving rapidly after new research</li>
+            <li class="header__list--option"><a href="#" class="header__option--link">Drum technology is evolving rapidly after new research</a></li>
           </ul>
           <ul class="header__list">
             <li class="header__list--title">Upcoming events</li>
-            <li class="header__list--option"><img class="header__list--flag" alt="Austrian flag"
-                src="<?= GREENSHOP_THEME_URL ?>/images/austria-flag.png">Black Octopus - Vienna</li>
-            <li class="header__list--option"><img class="header__list--flag" alt="Polish flag"
-                src="<?= GREENSHOP_THEME_URL ?>/images/poland-flag.png">Lost Sailor - Warsaw</li>
-            <li class="header__list--option"><img class="header__list--flag" alt="German flag"
-                src="<?= GREENSHOP_THEME_URL ?>/images/germany-flag.png">Porcupine - Berlin</li>
+            <li class="header__list--option"><a href="#" class="header__option--link"><img class="header__list--flag" alt="Austrian flag"
+                src="<?= GREENSHOP_THEME_URL ?>/images/austria-flag.png">Black Octopus - Vienna</a></li>
+            <li class="header__list--option"><a href="#" class="header__option--link"><img class="header__list--flag" alt="Polish flag"
+                src="<?= GREENSHOP_THEME_URL ?>/images/poland-flag.png">Lost Sailor - Warsaw</a></li>
+            <li class="header__list--option"><a href="#" class="header__option--link"><img class="header__list--flag" alt="German flag"
+                src="<?= GREENSHOP_THEME_URL ?>/images/germany-flag.png">Porcupine - Berlin</a></li>
           </ul>
           <ul class="header__list">
             <li class="header__list--title">Hot offers %</li>
-            <li class="header__list--option">Jackson JS12 DKA Dinky AH FB BLK</li>
+            <li class="header__list--option"><a href="#" class="header__option--link">Jackson JS12 DKA Dinky AH FB BLK</a></li>
           </ul>
         </div>
       </div>
