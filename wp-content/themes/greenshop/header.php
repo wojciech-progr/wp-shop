@@ -46,7 +46,7 @@
       <div class="row">
         <div>
           <a class="navbar__logo" href="<?= esc_url(home_url()) ?>">
-            <img class="navbar__logo--img" alt="Logo sklepu"
+            <img class="navbar__logo--img" alt="Shop logo"
               src="<?= GREENSHOP_THEME_URL ?>/images/lorem-ipsum-logo.jpg">
           </a>
           <ul class="navbar__menu">
@@ -64,9 +64,9 @@
             <li onclick="showSubmenu(this)" class="navbar__option navbar__option--events">
               <strong>Events</strong>
               <ul class="navbar__submenu">
-                <li class="navbar__submenu--option">Germany</li>
-                <li class="navbar__submenu--option">Poland</li>
-                <li class="navbar__submenu--option">Austria</li>
+                <li class="navbar__submenu--option">Germany<<img class="navbar__submenu--flag" alt="German flag" src="<?= GREENSHOP_THEME_URL ?>/images/germany-flag.png"></li>
+                <li class="navbar__submenu--option">Poland <img class="navbar__submenu--flag" alt="Polish flag" src="<?= GREENSHOP_THEME_URL ?>/images/poland-flag.png"></li>
+                <li class="navbar__submenu--option">Austria <img class="navbar__submenu--flag" alt="Austrian flag" src="<?= GREENSHOP_THEME_URL ?>/images/austria-flag.png"></li>
                 <li class="navbar__submenu--option">Whole world</li>
               </ul>
             </li>
@@ -97,14 +97,14 @@
           </ul>
           <ul class="header__list">
             <li class="header__list--title">Latest blog entries</li>
-            <li class="header__list--option">New guitar type becomes best choice for young musicians</li>
+            <li class="header__list--option"><span>test</span>New guitar type becomes best choice for young musicians</li>
             <li class="header__list--option">Drum technology is evolving rapidly after new research</li>
           </ul>
           <ul class="header__list">
             <li class="header__list--title">Upcoming events</li>
-            <li class="header__list--option">Black Octopus - Vienna</li>
-            <li class="header__list--option">Lost Sailor - Warsaw</li>
-            <li class="header__list--option">Porcupine - Berlin</li>
+            <li class="header__list--option"><img class="header__list--flag" alt="Austrian flag" src="<?= GREENSHOP_THEME_URL ?>/images/austria-flag.png">Black Octopus -  Vienna</li>
+            <li class="header__list--option"><img class="header__list--flag" alt="Polish flag" src="<?= GREENSHOP_THEME_URL ?>/images/poland-flag.png">Lost Sailor -  Warsaw</li>
+            <li class="header__list--option"><img class="header__list--flag" alt="German flag" src="<?= GREENSHOP_THEME_URL ?>/images/germany-flag.png">Porcupine -  Berlin</li>
           </ul>
           <ul class="header__list">
             <li class="header__list--title">Hot offers %</li>

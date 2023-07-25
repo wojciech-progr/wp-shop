@@ -22,6 +22,10 @@
         display: none;
     }
 
+    .header__list {
+        display: none;
+    }
+
     .footer__menu {
         text-align: center;
     }
