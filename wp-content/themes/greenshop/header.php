@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="<?= GREENSHOP_THEME_URL ?>/css/styles.css" />
   <link rel="stylesheet" href="<?= GREENSHOP_THEME_URL ?>/css/mobile.css" />
 
+  <script src="<?= GREENSHOP_THEME_URL ?>/js/functions.js"></script>
   <script src="<?= GREENSHOP_THEME_URL ?>/js/scripts.js"></script>
   <script src="https://kit.fontawesome.com/fc9a6b4d3f.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
