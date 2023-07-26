@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<section class="mainContainer" style="background-image: url('<?= GREENSHOP_THEME_URL ?>/images/bricks.jpeg')">
+<section class="mainContainer">
     <div class="promoted">
         <div class="container">
             <ul class="promoted__list">
