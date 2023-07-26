@@ -11,7 +11,9 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title><?= get_bloginfo('name') ?></title>
+  <title>
+    <?= get_bloginfo('name') ?>
+  </title>
 
   <link rel="icon" type="image/x-icon" href="<?= GREENSHOP_THEME_URL ?>/images/favicon.ico">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -45,7 +47,7 @@
   <nav class="navbar">
     <div class="container">
       <div class="row">
-        <div>
+        <div class="col-md-12">
           <a class="navbar__logo" href="<?= esc_url(home_url()) ?>">
             <img class="navbar__logo--img" alt="Shop logo" src="<?= GREENSHOP_THEME_URL ?>/images/logo.png">
           </a>
@@ -97,26 +99,32 @@
                 <li class="navbar__submenu--option">Privacy policy</li>
               </ul>
             </li>
+
           </ul>
-          <ul class="header__list">
-            <li class="header__list--title">Latest blog entries</li>
-            <li class="header__list--option"><a href="#" class="header__option--link">New guitar type becomes best choice for young musicians</a>
+          <!-- <ul class="breadcrumbs">
+            <li class="breadcrumbs__piece" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+              <a class="breadcrumbs__piece--link" href="#" itemprop="url">
+                <span itemprop="title">Homepage</span><span class="breadcrumbs__separator">></span>
+              </a>
             </li>
-            <li class="header__list--option"><a href="#" class="header__option--link">Drum technology is evolving rapidly after new research</a></li>
-          </ul>
-          <ul class="header__list">
-            <li class="header__list--title">Upcoming events</li>
-            <li class="header__list--option"><a href="#" class="header__option--link"><img class="header__list--flag" alt="Austrian flag"
-                src="<?= GREENSHOP_THEME_URL ?>/images/austria-flag.png">Black Octopus - Vienna</a></li>
-            <li class="header__list--option"><a href="#" class="header__option--link"><img class="header__list--flag" alt="Polish flag"
-                src="<?= GREENSHOP_THEME_URL ?>/images/poland-flag.png">Lost Sailor - Warsaw</a></li>
-            <li class="header__list--option"><a href="#" class="header__option--link"><img class="header__list--flag" alt="German flag"
-                src="<?= GREENSHOP_THEME_URL ?>/images/germany-flag.png">Porcupine - Berlin</a></li>
-          </ul>
-          <ul class="header__list">
-            <li class="header__list--title">Hot offers %</li>
-            <li class="header__list--option"><a href="#" class="header__option--link">Jackson JS12 DKA Dinky AH FB BLK</a></li>
-          </ul>
+            <li class="breadcrumbs__piece" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+              <a class="breadcrumbs__piece--link" href="#" itemprop="url">
+                <span itemprop="title">Products</span><span class="breadcrumbs__separator">></span>
+              </a>
+            </li>
+            <li class="breadcrumbs__piece" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+              <a class="breadcrumbs__piece--link" href="#" itemprop="url">
+                <span itemprop="title">Guitars</span><span class="breadcrumbs__separator">></span>
+              </a>
+            </li>
+            <li class="breadcrumbs__piece">
+              <span class="breadcrumbs__piece--current">Jackson JS12 DKA Dinky AH FB
+              </span>
+            </li>
+          </ul> -->
+        </div>
+        <div class="col-md-12">
+
         </div>
       </div>
     </div>
