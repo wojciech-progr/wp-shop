@@ -10,10 +10,11 @@ add more elements to first line of function if needed
 function showSubElement(mainElement) {
 
     var subElement = mainElement.getElementsByTagName("ul");
-    var subElementStyle = getComputedStyle(subElement[0]);
+    var subElementStyle = getComputedStyle(subElement[0]).getPropertyValue("display");
 
-    if (subElementStyle !== 'block') {
+    if (subElementStyle == 'none') {
 
+        // show element
         mainElement.classList.add("showSubElement");
 
         adjustsubElementSize(mainElement, subElement[0]);
@@ -26,7 +27,7 @@ function showSubElement(mainElement) {
 
     } else {
 
-        // if true hide subElement
+        // hide element
         mainElement.classList.remove("showSubElement");
 
     }

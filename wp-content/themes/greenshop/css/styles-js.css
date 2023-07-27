@@ -5,6 +5,6 @@
 }
 
 .showSubElement ul {
-    display: block;
+    display: inline-block;
 }
 /* end showSubElement('') */

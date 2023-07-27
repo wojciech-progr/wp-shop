@@ -83,26 +83,8 @@
                 <li class="navbar__submenu--option">Sound engineering</li>
               </ul>
             </li>
-            <li onclick="showSubElement(this)" class="navbar__option">
-              <strong>Musician fights</strong>
-              <ul class="navbar__submenu">
-                <li class="navbar__submenu--option">Guitarists</li>
-                <li class="navbar__submenu--option">Drummers</li>
-                <li class="navbar__submenu--option">Bands</li>
-                <li class="navbar__submenu--option">All fights</li>
-              </ul>
-            </li>
-            <li onclick="showSubElement(this)" class="navbar__option">
-              <strong>About us</strong>
-              <ul class="navbar__submenu">
-                <li class="navbar__submenu--option">Contact us</li>
-                <li class="navbar__submenu--option">Terms of usage</li>
-                <li class="navbar__submenu--option">Privacy policy</li>
-              </ul>
-            </li>
-
           </ul>
-          <!-- <ul class="breadcrumbs">
+          <ul class="breadcrumbs">
             <li class="breadcrumbs__piece" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
               <a class="breadcrumbs__piece--link" href="#" itemprop="url">
                 <span itemprop="title">Homepage</span><span class="breadcrumbs__separator">></span>
@@ -122,7 +104,7 @@
               <span class="breadcrumbs__piece--current">Jackson JS12 DKA Dinky AH FB
               </span>
             </li>
-          </ul> -->
+          </ul>
         </div>
         <div class="col-md-12">
 
