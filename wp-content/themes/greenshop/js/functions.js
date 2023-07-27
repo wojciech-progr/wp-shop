@@ -1,34 +1,41 @@
-// Show submenu and adjust its width
-function showSubmenu(element) {
+/* 
 
-    var mainMenu = element;
-    var subMenu = element.getElementsByClassName("navbar__submenu");
+Show subElement and adjust its width 
 
-    var mainMenuWidth;
-    var subMenuWidth;
+'mainElement' is direct parent of 'subElement'
+subElement has to be ul
+add more elements to first line of function if needed
 
+*/
+function showSubElement(mainElement) {
 
-    if (mainMenu.classList.contains("showSubmenu")) {
+    var subElement = mainElement.getElementsByTagName("ul");
+    var subElementStyle = getComputedStyle(subElement[0]);
 
-        // if true hide submenu
-        mainMenu.classList.remove("showSubmenu");
+    if (subElementStyle !== 'block') {
+
+        mainElement.classList.add("showSubElement");
+
+        adjustsubElementSize(mainElement, subElement[0]);
+
+        if (mainElement.offsetWidth > subElement[0].offsetWidth) {
+
+            adjustsubElementSize(mainElement.offsetWidth, subElement[0]);
+
+        }
 
     } else {
 
-        // if not true show submenu
-        mainMenu.classList.add("showSubmenu");
+        // if true hide subElement
+        mainElement.classList.remove("showSubElement");
 
-        // check width of mainmenu and submenu
-        mainMenuWidth = mainMenu.offsetWidth;
-        subMenuWidth = subMenu[0].offsetWidth;
-
-        // compare widths
-        if (mainMenuWidth > subMenuWidth) {
-
-            // if true, change submenus width to mainmenus width
-            subMenu[0].style.width = mainMenuWidth + 'px';
-
-        }
     }
+
+}
+
+// Adjusts size of subElement
+function adjustsubElementSize(mainElementWidth, subElement) {
+
+    subElement.style.width = mainElementWidth + 'px';
 
 }

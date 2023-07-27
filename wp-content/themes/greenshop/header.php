@@ -23,6 +23,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="<?= GREENSHOP_THEME_URL ?>/style.css" />
   <link rel="stylesheet" href="<?= GREENSHOP_THEME_URL ?>/css/styles.css" />
+  <link rel="stylesheet" href="<?= GREENSHOP_THEME_URL ?>/css/styles-js.css" />
   <link rel="stylesheet" href="<?= GREENSHOP_THEME_URL ?>/css/mobile.css" />
 
   <script src="<?= GREENSHOP_THEME_URL ?>/js/functions.js"></script>
@@ -52,7 +53,7 @@
             <img class="navbar__logo--img" alt="Shop logo" src="<?= GREENSHOP_THEME_URL ?>/images/logo.png">
           </a>
           <ul class="navbar__menu">
-            <li onclick="showSubmenu(this)" class="navbar__option navbar__option--guitar">
+            <li onclick="showSubElement(this)" class="navbar__option navbar__option--guitar">
               <strong>Products</strong>
               <ul class="navbar__submenu">
                 <li class="navbar__submenu--option">Guitars</li>
@@ -63,7 +64,7 @@
                 <li class="navbar__submenu--option navbar__submenu--deal">Deal of the day</li>
               </ul>
             </li>
-            <li onclick="showSubmenu(this)" class="navbar__option navbar__option--events">
+            <li onclick="showSubElement(this)" class="navbar__option navbar__option--events">
               <strong>Events</strong>
               <ul class="navbar__submenu">
                 <li class="navbar__submenu--option">Germany <img class="navbar__submenu--flag" alt="German flag"
@@ -75,14 +76,14 @@
                 <li class="navbar__submenu--option">Whole world</li>
               </ul>
             </li>
-            <li onclick="showSubmenu(this)" class="navbar__option navbar__option--blog">
+            <li onclick="showSubElement(this)" class="navbar__option navbar__option--blog">
               <strong>Blog</strong>
               <ul class="navbar__submenu">
                 <li class="navbar__submenu--option">Music theory</li>
                 <li class="navbar__submenu--option">Sound engineering</li>
               </ul>
             </li>
-            <li onclick="showSubmenu(this)" class="navbar__option">
+            <li onclick="showSubElement(this)" class="navbar__option">
               <strong>Musician fights</strong>
               <ul class="navbar__submenu">
                 <li class="navbar__submenu--option">Guitarists</li>
@@ -91,7 +92,7 @@
                 <li class="navbar__submenu--option">All fights</li>
               </ul>
             </li>
-            <li onclick="showSubmenu(this)" class="navbar__option">
+            <li onclick="showSubElement(this)" class="navbar__option">
               <strong>About us</strong>
               <ul class="navbar__submenu">
                 <li class="navbar__submenu--option">Contact us</li>
