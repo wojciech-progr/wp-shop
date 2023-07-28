@@ -47,6 +47,7 @@
                 </i>
             </p>
         </li>
+    </ul>
 </section>
 <section class="promoted">
     <ul class="promoted__list">
