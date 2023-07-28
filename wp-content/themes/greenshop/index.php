@@ -66,7 +66,7 @@
             <span class="promoted__date">01.08.2023</span>
             <a href="#" class="promoted__option--link">
                 Black Octopus - Vienna
-                <img class="promoted__list--flag" alt="Austrian flag"
+                <img width="" height="" class="promoted__list--flag" alt="Austrian flag"
                     src="<?= GREENSHOP_THEME_URL ?>/images/austria-flag.png">
             </a>
         </li>
@@ -75,12 +75,12 @@
             <span class="promoted__date">10.08.2023</span>
             <a href="#" class="promoted__option--link">
                 Lost Sailor - Warsaw
-                <img class="promoted__list--flag" alt="Austrian flag"
+                <img width="" height="" class="promoted__list--flag" alt="Austrian flag"
                     src="<?= GREENSHOP_THEME_URL ?>/images/poland-flag.png">
             </a>
             <a href="#" class="promoted__option--link">
                 In Desert We Trust - Berdlin
-                <img class="promoted__list--flag" alt="Austrian flag"
+                <img width="" height="" class="promoted__list--flag" alt="Austrian flag"
                     src="<?= GREENSHOP_THEME_URL ?>/images/germany-flag.png">
             </a>
         </li>
@@ -88,7 +88,7 @@
             <span class="promoted__date">15.08.2023</span>
             <a href="#" class="promoted__option--link">
                 Porcupine - Berdlin
-                <img class="promoted__list--flag" alt="Austrian flag"
+                <img width="" height="" class="promoted__list--flag" alt="Austrian flag"
                     src="<?= GREENSHOP_THEME_URL ?>/images/germany-flag.png">
             </a>
         </li>
