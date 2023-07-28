@@ -45,14 +45,14 @@
 
 <body <?= body_class(); ?>>
 
-  <nav class="navbar">
+  <nav class="navbar" role="navigation" aria-label="main website navigation">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <a class="navbar__logo" href="<?= esc_url(home_url()) ?>">
             <img class="navbar__logo--img" alt="Shop logo" src="<?= GREENSHOP_THEME_URL ?>/images/logo.png">
           </a>
-          <ul class="navbar__menu">
+          <ul class="navbar__menu" aria-label="main menu">
             <li onclick="showSubElement(this)" class="navbar__option navbar__option--guitar">
               <strong>Products</strong>
               <ul class="navbar__submenu">
@@ -84,7 +84,7 @@
               </ul>
             </li>
           </ul>
-          <ul class="breadcrumbs">
+          <ol class="breadcrumbs" aria-label="breadcrumbs">
             <li class="breadcrumbs__piece" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
               <a class="breadcrumbs__piece--link" href="#" itemprop="url">
                 <span itemprop="title">Homepage</span><span class="breadcrumbs__separator">></span>
@@ -104,10 +104,7 @@
               <span class="breadcrumbs__piece--current">Jackson JS12 DKA Dinky AH FB
               </span>
             </li>
-          </ul>
-        </div>
-        <div class="col-md-12">
-
+          </ol>
         </div>
       </div>
     </div>

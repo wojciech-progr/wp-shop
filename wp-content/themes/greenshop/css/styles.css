@@ -117,6 +117,7 @@ section {
     display: inline-block;
     text-align: center;
     vertical-align: middle;
+    margin-bottom: 35px;
 }
 
 .navbar__option {
@@ -239,14 +240,17 @@ section {
     padding: 30px 15px;
     border-bottom: 1px solid #808080;
     width: 290px;
-    margin-right: 30px;
     background-color: rgba(0, 0, 0, 0.65);
     ;
     border-radius: 30px;
     box-shadow: 15px 10px black;
 }
 
-.promoted__list--option {
+.promoted__list:not(:last-child) {
+    margin-right: 30px;
+}
+
+.promoted__option {
     font-size: 16px;
     padding-bottom: 15px;
 }
@@ -294,9 +298,7 @@ section {
     color: white;
 }
 
-.breadcrumbs {
-    margin-bottom: 30px;
-}
+.breadcrumbs {}
 
 .promoted__date {
     color: white;
@@ -319,13 +321,19 @@ section {
 
 .features__feature {
     display: inline-block;
-    max-width: 300px;
+    width: 300px;
     vertical-align: top;
-    background-color: white;
     padding: 15px 25px;
-    background: linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100));
-    color: white;
+    background-image: linear-gradient(62deg, rgb(142, 197, 252) 0%, rgb(224, 195, 252) 100%);
+    color: black;
     font-family: 'Lora', serif;
+    min-height: 200px;
+    border-radius: 30px;
+    box-shadow: 15px 10px black;
+}
+
+.features__feature:not(:last-child) {
+    margin-right: 30px;
 }
 
 .features__feature--description {
@@ -334,8 +342,23 @@ section {
 
 .features__heading {
     text-align: center;
+    font-size: 45px;
+    font-weight: 800;
 }
 
 .features__feature--title {
-    color: red;
+    color: white;
+    text-shadow: 2px 2px 8px white;
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-shadow: 2px 2px 8px black;
+    font-weight: 800;
+}
+
+.promoted__option--last {
+    font-size: 20px;
+    background-color: white;
+    padding-bottom: 0px;
+    margin: 0px 10px;
+    width: auto;
 }
