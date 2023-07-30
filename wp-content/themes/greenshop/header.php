@@ -50,37 +50,37 @@
       <div class="row">
         <div class="col-md-12">
           <a class="navbar__logo" href="<?= esc_url(home_url()) ?>">
-            <img class="navbar__logo--img" alt="Shop logo" src="<?= GREENSHOP_THEME_URL ?>/images/logo.png">
+            <img class="navbar__img" width="" height="" alt="Shop logo" src="<?= GREENSHOP_THEME_URL ?>/images/logo.png">
           </a>
           <ul class="navbar__menu" aria-label="main menu">
             <li onclick="showSubElement(this)" class="navbar__option navbar__option--guitar">
               <strong>Products</strong>
               <ul class="navbar__submenu">
-                <li class="navbar__submenu--option">Guitars</li>
-                <li class="navbar__submenu--option">Drums</li>
-                <li class="navbar__submenu--option">Keys</li>
-                <li class="navbar__submenu--option">Strings</li>
-                <li class="navbar__submenu--option">All products</li>
-                <li class="navbar__submenu--option navbar__submenu--deal">Deal of the day</li>
+                <li class="navbar__submenuOption">Guitars</li>
+                <li class="navbar__submenuOption">Drums</li>
+                <li class="navbar__submenuOption">Keys</li>
+                <li class="navbar__submenuOption">Strings</li>
+                <li class="navbar__submenuOption">All products</li>
+                <li class="navbar__submenuOption navbar__submenu--deal">Deal of the day</li>
               </ul>
             </li>
             <li onclick="showSubElement(this)" class="navbar__option navbar__option--events">
               <strong>Events</strong>
               <ul class="navbar__submenu">
-                <li class="navbar__submenu--option">Germany <img class="navbar__submenu--flag" alt="German flag"
+                <li class="navbar__submenuOption">Germany <img width="" height="" class="navbar__submenu--flag" alt="German flag"
                     src="<?= GREENSHOP_THEME_URL ?>/images/germany-flag.png"></li>
-                <li class="navbar__submenu--option">Poland <img class="navbar__submenu--flag" alt="Polish flag"
+                <li class="navbar__submenuOption">Poland <img width="" height="" class="navbar__submenu--flag" alt="Polish flag"
                     src="<?= GREENSHOP_THEME_URL ?>/images/poland-flag.png"></li>
-                <li class="navbar__submenu--option">Austria <img class="navbar__submenu--flag" alt="Austrian flag"
+                <li class="navbar__submenuOption">Austria <img width="" height="" class="navbar__submenu--flag" alt="Austrian flag"
                     src="<?= GREENSHOP_THEME_URL ?>/images/austria-flag.png"></li>
-                <li class="navbar__submenu--option">Whole world</li>
+                <li class="navbar__submenuOption">Whole world</li>
               </ul>
             </li>
             <li onclick="showSubElement(this)" class="navbar__option navbar__option--blog">
               <strong>Blog</strong>
               <ul class="navbar__submenu">
-                <li class="navbar__submenu--option">Music theory</li>
-                <li class="navbar__submenu--option">Sound engineering</li>
+                <li class="navbar__submenuOption">Music theory</li>
+                <li class="navbar__submenuOption">Sound engineering</li>
               </ul>
             </li>
           </ul>
