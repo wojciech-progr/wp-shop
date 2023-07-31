@@ -8,12 +8,14 @@
   <?php if (is_search()): ?>
     <meta name="robots" content="noindex, nofollow" />
   <?php endif; ?>
-
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>
     <?= get_bloginfo('name') ?>
   </title>
+
+  <meta name="description" content="example description of site">
 
   <link rel="icon" type="image/x-icon" href="<?= GREENSHOP_THEME_URL ?>/images/favicon.ico">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
