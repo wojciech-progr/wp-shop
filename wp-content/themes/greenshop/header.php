@@ -46,69 +46,70 @@
 <?php /* Adds classes depending on the site, for example 404 or if user is logged in  */?>
 
 <body <?= body_class(); ?>>
-
-  <nav class="navbar" role="navigation" aria-label="main website navigation">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <a class="navbar__logo" href="<?= esc_url(home_url()) ?>">
-            <img class="navbar__img" width="" height="" alt="Shop logo"
-              src="<?= GREENSHOP_THEME_URL ?>/images/logo.png">
-          </a>
-          <ul class="navbar__menu" aria-label="main menu">
-            <li onclick="showSubElement(this)" class="navbar__option navbar__option--guitar">
-              <strong>Products</strong>
-              <ul class="navbar__submenu">
-                <li class="navbar__submenuOption">Guitars</li>
-                <li class="navbar__submenuOption">Drums</li>
-                <li class="navbar__submenuOption">Keys</li>
-                <li class="navbar__submenuOption">Strings</li>
-                <li class="navbar__submenuOption">All products</li>
-                <li class="navbar__submenuOption navbar__submenu--deal">Deal of the day</li>
-              </ul>
-            </li>
-            <li onclick="showSubElement(this)" class="navbar__option navbar__option--events">
-              <strong>Events</strong>
-              <ul class="navbar__submenu">
-                <li class="navbar__submenuOption">Germany <img width="" height="" class="navbar__submenu--flag"
-                    alt="German flag" src="<?= GREENSHOP_THEME_URL ?>/images/germany-flag.png"></li>
-                <li class="navbar__submenuOption">Poland <img width="" height="" class="navbar__submenu--flag"
-                    alt="Polish flag" src="<?= GREENSHOP_THEME_URL ?>/images/poland-flag.png"></li>
-                <li class="navbar__submenuOption">Austria <img width="" height="" class="navbar__submenu--flag"
-                    alt="Austrian flag" src="<?= GREENSHOP_THEME_URL ?>/images/austria-flag.png"></li>
-                <li class="navbar__submenuOption">Whole world</li>
-              </ul>
-            </li>
-            <li onclick="showSubElement(this)" class="navbar__option navbar__option--blog">
-              <strong>Blog</strong>
-              <ul class="navbar__submenu">
-                <li class="navbar__submenuOption">Music theory</li>
-                <li class="navbar__submenuOption">Sound engineering</li>
-              </ul>
-            </li>
-          </ul>
-          <ol class="breadcrumbs" aria-label="breadcrumbs">
-            <li class="breadcrumbs__piece" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-              <a class="breadcrumbs__piece--link" href="#" itemprop="url">
-                <span itemprop="title">Homepage</span><span class="breadcrumbs__separator">></span>
-              </a>
-            </li>
-            <li class="breadcrumbs__piece" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-              <a class="breadcrumbs__piece--link" href="#" itemprop="url">
-                <span itemprop="title">Products</span><span class="breadcrumbs__separator">></span>
-              </a>
-            </li>
-            <li class="breadcrumbs__piece" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-              <a class="breadcrumbs__piece--link" href="#" itemprop="url">
-                <span itemprop="title">Guitars</span><span class="breadcrumbs__separator">></span>
-              </a>
-            </li>
-            <li class="breadcrumbs__piece">
-              <span class="breadcrumbs__piece--current">Jackson JS12 DKA Dinky AH FB
-              </span>
-            </li>
-          </ol>
+  <header>
+    <nav class="navbar" role="navigation" aria-label="main website navigation">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <a class="navbar__logo" href="<?= esc_url(home_url()) ?>">
+              <img class="navbar__img" width="" height="" alt="Shop logo"
+                src="<?= GREENSHOP_THEME_URL ?>/images/logo.png">
+            </a>
+            <ul class="navbar__menu" aria-label="main menu">
+              <li onclick="showSubElement(this)" class="navbar__option navbar__option--guitar">
+                <strong>Products</strong>
+                <ul class="navbar__submenu">
+                  <li class="navbar__submenuOption">Guitars</li>
+                  <li class="navbar__submenuOption">Drums</li>
+                  <li class="navbar__submenuOption">Keys</li>
+                  <li class="navbar__submenuOption">Strings</li>
+                  <li class="navbar__submenuOption">All products</li>
+                  <li class="navbar__submenuOption navbar__submenu--deal">Deal of the day</li>
+                </ul>
+              </li>
+              <li onclick="showSubElement(this)" class="navbar__option navbar__option--events">
+                <strong>Events</strong>
+                <ul class="navbar__submenu">
+                  <li class="navbar__submenuOption">Germany <img width="" height="" class="navbar__submenu--flag"
+                      alt="German flag" src="<?= GREENSHOP_THEME_URL ?>/images/germany-flag.png"></li>
+                  <li class="navbar__submenuOption">Poland <img width="" height="" class="navbar__submenu--flag"
+                      alt="Polish flag" src="<?= GREENSHOP_THEME_URL ?>/images/poland-flag.png"></li>
+                  <li class="navbar__submenuOption">Austria <img width="" height="" class="navbar__submenu--flag"
+                      alt="Austrian flag" src="<?= GREENSHOP_THEME_URL ?>/images/austria-flag.png"></li>
+                  <li class="navbar__submenuOption">Whole world</li>
+                </ul>
+              </li>
+              <li onclick="showSubElement(this)" class="navbar__option navbar__option--blog">
+                <strong>Blog</strong>
+                <ul class="navbar__submenu">
+                  <li class="navbar__submenuOption">Music theory</li>
+                  <li class="navbar__submenuOption">Sound engineering</li>
+                </ul>
+              </li>
+            </ul>
+            <ol class="breadcrumbs" aria-label="breadcrumbs">
+              <li class="breadcrumbs__piece" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                <a class="breadcrumbs__piece--link" href="#" itemprop="url">
+                  <span itemprop="title">Homepage</span><span class="breadcrumbs__separator">></span>
+                </a>
+              </li>
+              <li class="breadcrumbs__piece" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                <a class="breadcrumbs__piece--link" href="#" itemprop="url">
+                  <span itemprop="title">Products</span><span class="breadcrumbs__separator">></span>
+                </a>
+              </li>
+              <li class="breadcrumbs__piece" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                <a class="breadcrumbs__piece--link" href="#" itemprop="url">
+                  <span itemprop="title">Guitars</span><span class="breadcrumbs__separator">></span>
+                </a>
+              </li>
+              <li class="breadcrumbs__piece">
+                <span class="breadcrumbs__piece--current">Jackson JS12 DKA Dinky AH FB
+                </span>
+              </li>
+            </ol>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </header>
