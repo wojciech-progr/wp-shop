@@ -1,38 +1,46 @@
 /* Extra small None*/
-@media (max-width: 575px) {}
-
-/* Small sm */
-@media (min-width: 576px) {}
-
-/* Medium md */
-@media (min-width: 768px) {}
-
-@media (max-width: 767px) {}
-
-/* Large lg */
-@media (min-width: 992px) {}
-
-@media (max-width: 991px) {}
-
-/* Extra large xl - main breakpoint for RWD */
-@media (min-width: 1200px) {}
-
-@media (max-width: 1199px) {
-    .navbar__menu {
-        display: none;
-    }
-
-    .header__list {
-        display: none;
-    }
-
-    .footer__menu {
-        text-align: center;
-    }
+@media (max-width: 575px) {
 }
 
+/* Small sm */
+@media (min-width: 576px) {
+}
+
+/* Medium md */
+@media (min-width: 768px) {
+}
+
+@media (max-width: 767px) {
+}
+
+/* Large lg */
+@media (min-width: 992px) {
+}
+
+@media (max-width: 991px) {
+}
+
+/* Extra large xl - main breakpoint for RWD */
+@media (min-width: 1200px) {
+}
+
+@media (max-width: 1199px) {
+  .navbar__menu {
+    display: none;
+  }
+
+  .header__list {
+    display: none;
+  }
+
+  .footer__menu {
+    text-align: center;
+  }
+}
 
 /* Extra extra large xxl */
-@media (min-width: 1400px) {}
+@media (min-width: 1400px) {
+}
 
-@media (max-width: 1399px) {}
+@media (max-width: 1399px) {
+}

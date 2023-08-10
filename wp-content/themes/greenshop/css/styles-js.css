@@ -1,10 +1,10 @@
 /* showSubElement('') */
 .showSubElement {
-    background-color: #ADD8E6;
-    transition: background-color 1s;
+  background-color: #add8e6;
+  transition: background-color 1s;
 }
 
 .showSubElement ul {
-    display: inline-block;
+  display: inline-block;
 }
 /* end showSubElement('') */
