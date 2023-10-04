@@ -1,5 +1,4 @@
 <footer class="footer">
-
     <div class="footer__menu">
         <div class="container">
             <div class="row">
