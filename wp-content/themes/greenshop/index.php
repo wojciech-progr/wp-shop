@@ -53,13 +53,23 @@
     <section class="promoted">
         <ul class="promoted__list">
             <li class="promoted__title">Recent articles</li>
-            <li class="promoted__option"><a href="#" class="promoted__link">
-                    New guitar type becomes best choice for young musicians</a>
+            <li class="promoted__option">
+                <span class="promoted__date">06.10.2023</span>
+                <a href="#" class="promoted__link">
+                    New guitar type becomes best choice for young musicians
+                </a>
             </li>
-            <li class="promoted__option"><a href="#" class="promoted__link">
-                    Drum technology is evolving rapidly after new research</a></li>
-            <li class="promoted__option promoted__option--last"><a href="#" class="promoted__link">
-                    See all articles</a></li>
+            <li class="promoted__option">
+                <span class="promoted__date">05.10.2023</span>
+                <a href="#" class="promoted__link">
+                    Drum technology is evolving rapidly after new research
+                </a>
+            </li>
+            <li class="promoted__option promoted__button">
+                <a href="#" class="promoted__button--link">
+                    All articles
+                </a>
+            </li>
         </ul>
         <ul class="promoted__list">
             <li class="promoted__title">Upcoming events</li>
@@ -93,9 +103,14 @@
                         src="<?= GREENSHOP_THEME_URL ?>/images/germany-flag.png">
                 </a>
             </li>
+            <li class="promoted__option promoted__button">
+                <a href="#" class="promoted__button--link">
+                    All events
+                </a>
+            </li>
         </ul>
         <ul class="promoted__list">
-            <li class="promoted__title promoted__title--hot">
+            <li class="promoted__title promoted__title--distinction">
                 Hot offers
             </li>
             <li class="promoted__option">
@@ -111,6 +126,11 @@
             <li class="promoted__option">
                 <a href="#" class="promoted__link">
                     Joe Satriani vs Steve Vai
+                </a>
+            </li>
+            <li class="promoted__option promoted__button">
+                <a href="#" class="promoted__button--link">
+                    All fights
                 </a>
             </li>
         </ul>
