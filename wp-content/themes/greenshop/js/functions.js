@@ -32,3 +32,14 @@ function showSubElement(mainElement) {
 function adjustsubElementSize(mainElementWidth, subElement) {
   subElement.style.width = mainElementWidth + "px";
 }
+
+document.addEventListener( 'DOMContentLoaded', function() {
+  var splide = new Splide( '.splide', {
+    type   : 'loop',
+    perPage: 3,
+    interval: 8000,
+    autoplay: true
+  } );
+
+  splide.mount();
+});

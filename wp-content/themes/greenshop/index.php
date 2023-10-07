@@ -50,6 +50,111 @@
             </li>
         </ul>
     </section>
+    <section class="opinions">
+        <h2 class="opinions__heading">Why did others trust us?</h2>
+        <div class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div class="opinions__opinion">
+                            <p>
+                                <q>
+                                    Probably the best service I've ever encountered.
+                                </q>
+                                -&nbsp;Simon
+                            </p>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="opinions__opinion">
+                            <p>
+                                <q>
+                                    The fast shipping time meant that I could enjoy my purchase now.
+                                </q>
+                                - Amanda
+                            </p>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="opinions__opinion">
+                            <p>
+                                <q>
+                                    I returned the product I didn't like quickly and safely. Instead of a guitar, I
+                                    ended up
+                                    buying
+                                    keyboards, and the store staff completed all the formalities very quickly.
+                                </q>
+                                -&nbsp;Carlos
+                            </p>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="opinions__opinion">
+                            <p>
+                                <q>
+                                    If it weren't for the knowledge from the experts in this store, I would have bought
+                                    something
+                                    completely pointless. Thank you for your time and I will definitely come back here.
+                                </q>
+                                -&nbsp;Mark
+                            </p>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="opinions__opinion">
+                            <p>
+                                <q>
+                                    I was afraid to buy my first guitar, but now I am buying my third one in
+                                    the same, reliable store. Maybe electronic drums will be next?
+                                </q>
+                                -&nbsp;Patrick
+                            </p>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="opinions__opinion">
+                            <p>
+                                <q>
+                                    No more shopping in another store, here I even got a small free gift - a guitar pick
+                                    that I
+                                    had
+                                    already lost. Where do they disappear?
+                                </q>
+                                -&nbsp;Derek
+                            </p>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="opinions__opinion">
+                            <p>
+                                <q>
+                                    Thank you for helping me choose an instrument. Now I can finally practice on
+                                    something
+                                    that
+                                    fits
+                                    me.
+                                </q>
+                                -&nbsp;Monica
+                            </p>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="opinions__opinion">
+                            <p>
+                                <q>
+                                    I don't know what I would have done if it weren't for the article about
+                                    Mr. Damian's sound monitors. Now I create music and hear everything clearly, and the
+                                    equipment
+                                    itself is selected for my small room.
+                                </q>
+                                -&nbsp;Elizabeth
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
     <section class="promoted">
         <ul class="promoted__list">
             <li class="promoted__title">Recent articles</li>

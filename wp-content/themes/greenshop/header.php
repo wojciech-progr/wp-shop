@@ -6,7 +6,7 @@
     <meta charset=<?php bloginfo('charset'); ?>>
     <?php /* If this is search site do not allow indexing (for example google) */?>
     <?php if (is_search()): ?>
-    <meta name="robots" content="noindex, nofollow" />
+        <meta name="robots" content="noindex, nofollow" />
     <?php endif; ?>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,13 +28,15 @@
     <link rel="stylesheet" href="<?= GREENSHOP_THEME_URL ?>/css/styles.css" />
     <link rel="stylesheet" href="<?= GREENSHOP_THEME_URL ?>/css/styles-js.css" />
     <link rel="stylesheet" href="<?= GREENSHOP_THEME_URL ?>/css/mobile.css" />
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
 
     <script src="<?= GREENSHOP_THEME_URL ?>/js/functions.js"></script>
     <script src="<?= GREENSHOP_THEME_URL ?>/js/scripts.js"></script>
     <script src="https://kit.fontawesome.com/fc9a6b4d3f.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
-    </script>
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 
     <?php /* Informs another websites that i am linking to them */?>
 

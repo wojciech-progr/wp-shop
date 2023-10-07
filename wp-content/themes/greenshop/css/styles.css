@@ -24,6 +24,10 @@ section {
   padding: 45px 0px;
 }
 
+section:nth-child(2n) {
+  background-color: #fafafa;
+}
+
 .footer {
   background-color: #1a1a1a;
   padding: 50px 0px 50px 0px;
@@ -370,4 +374,14 @@ section {
   color: black;
   font-size: 20px;
   font-weight: 800;
+}
+
+.opinions__heading {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.opinions__opinion {
+  font-size: 25px;
 }
