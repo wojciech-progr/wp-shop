@@ -34,7 +34,8 @@ function greenshop_init_posttypes()
             'thumbnail',
             'author',
             'custom-fields',
-            'post-formats'
+            'post-formats',
+            'comments'
         ),
         'has_archive' => true
     );
