@@ -70,10 +70,24 @@
                             <div class="opinions__opinion">
                                 <p>
                                     <q>
-                                        <?= $comment->comment_content ?>
+                                        <?= $comment->comment_content; ?>
                                     </q>
                                     -&nbsp;
-                                    <?= $comment->comment_author ?>
+                                    <?= $comment->comment_author ?>,
+                                    <?php
+
+                                    /* Informations about post */
+
+                                    $post = get_post($comment->post_id);
+                                    $post_date = date('d-m-y', strtotime($post->post_date));
+                                    $post_title = wp_trim_words($post->post_title, $num_words = 4, $more = ' [...]');
+                                    $post_link = get_permalink($comment->post_id, $leavename = false);
+
+                                    ?>
+                                    <a href="<?= $post_link ?>">
+                                        <?= $post_title ?>
+                                    </a>,
+                                    <?= $post_date ?>
                                 </p>
                             </div>
                         </li>
