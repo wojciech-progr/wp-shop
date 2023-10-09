@@ -69,6 +69,8 @@
                         <li class="splide__slide">
                             <div class="opinions__opinion">
                                 <p>
+                                    <?= get_avatar($comment->user_id, 100, $default = '', $alt = '', $args = array('class' => 'opinions__avatar')) ?>
+                                <div>
                                     <q>
                                         <?= $comment->comment_content; ?>
                                     </q>
@@ -88,6 +90,7 @@
                                         <?= $post_title ?>
                                     </a>,
                                     <?= $post_date ?>
+                                </div>
                                 </p>
                             </div>
                         </li>
