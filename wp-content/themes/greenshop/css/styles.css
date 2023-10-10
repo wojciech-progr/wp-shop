@@ -396,8 +396,73 @@ section:nth-child(2n) {
   font-weight: 800;
 }
 
+.joinUs__box {
+  padding: 20px 10px;
+  height: 100%;
+}
+
+.joinUs__box--customer {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.joinUs__box--partner {
+  background-color: #ffc000;
+}
+
 .joinUs__heading {
   text-align: center;
   font-size: 45px;
   font-weight: 800;
+}
+
+.joinUs__subHeading {
+  margin-bottom: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.joinUs__benefits {
+  padding: 10px 15px;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+.joinUs__benefit {
+  margin-bottom: 15px;
+}
+
+.joinUs__benefit::before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 7px;
+  margin-right: 5px;
+  background-color: red;
+  margin-bottom: 2px;
+}
+
+.joinUs__access {
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.joinUs__button {
+  background-color: orange;
+  text-align: center;
+  font-size: 25px;
+  transition: background-color 1s;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 10px;
+  display: inline-block;
+  position: absolute;
+  bottom: 32px;
+  right: 15px;
+}
+
+.joinUs__button:hover {
+  background-color: red;
+  color: white;
 }

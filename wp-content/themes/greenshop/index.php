@@ -89,59 +89,67 @@
     <section class="joinUs">
         <h2 class="joinUs__heading"> Get Your free account now!</h2>
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="joinUs__box">
+            <div class="row equal">
+                <div class="col-md-6 align-middle">
+                    <div class="joinUs__box joinUs__box--customer">
                         <h3 class="joinUs__heading">I am a customer</h3>
-                        <span class="joinUs__subHeading">Become a user now and fulfill your musical passion.</span>
+                        <div class="joinUs__subHeading">
+                            <span>Become a user now and fulfill your musical passion.</span>
+                        </div>
                         <div class="joinUs__benefits">
-                            <span class="joinUs__access">Users benefits:</span>
-                            <ul class="joinUs__benefits">
-                                <li>
+                            <div class="joinUs__access">
+                                <span>Users benefits:</span>
+                            </div>
+                            <ul class=" joinUs__benefits">
+                                <li class="joinUs__benefit">
                                     buy new and used products at a good price
                                 </li>
-                                <li>
+                                <li class="joinUs__benefit">
                                     comment and share your opinions with others
                                 </li>
-                                <li>
+                                <li class="joinUs__benefit">
                                     acquire knowledge thanks to our blog
                                 </li>
-                                <li>
+                                <li class="joinUs__benefit">
                                     Let yourself be drawn into the musical passion
                                 </li>
-                                <li>
-                                    Join now
-                                </li>
                             </ul>
+                            <a href="#" class="joinUs__button">
+                                Join now
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="joinUs__box">
+                <div class="col-md-6 align-middle">
+                    <div class="joinUs__box joinUs__box--partner">
                         <h3 class="joinUs__heading">I am a partner</h3>
-                        <span class="joinUs__subHeading">Become a user now and fulfill your musical passion.</span>
-                        <div class="joinUs__benefits">
-                            <span class="joinUs__access">Partner benefits:</span>
-                            <ul class="joinUs__benefits">
-                                <li>
+                        <div class="joinUs__subHeading">
+                            <span>Become a authorized partner of the Greenshop store</span>
+                        </div>
+                        <div class="joinUs__benefits joinUs__box--customer">
+                            <div class="joinUs__access">
+                                <span>Partners benefits:</span>
+                            </div>
+                            <ul class=" joinUs__benefits">
+                                <li class="joinUs__benefit">
                                     put your products up for sale quickly
                                 </li>
-                                <li>
+                                <li class="joinUs__benefit">
                                     become an authorized partner of the Greenshop store
                                 </li>
-                                <li>
+                                <li class="joinUs__benefit">
                                     pay a small fee to discover premium options
                                 </li>
-                                <li>
+                                <li class="joinUs__benefit">
                                     make buyers love your products
                                 </li>
-                                <li>
+                                <li class="joinUs__benefit">
                                     announce your events to a huge audience
                                 </li>
-                                <li>
-                                    Join now
-                                </li>
                             </ul>
+                            <a href="#" class="joinUs__button">
+                                Join now
+                            </a>
                         </div>
                     </div>
                 </div>
