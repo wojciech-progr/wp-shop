@@ -466,3 +466,32 @@ section:nth-child(2n) {
   background-color: red;
   color: white;
 }
+
+.event {
+  margin-bottom: 50px;
+  border-bottom: 1px solid black;
+}
+
+.event__categories li {
+  display: inline;
+}
+
+.event__categories li a {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #ffc000;
+  font-size: 25px;
+
+}
+
+.event__categories li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.event__button {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  display: inline-block;
+}

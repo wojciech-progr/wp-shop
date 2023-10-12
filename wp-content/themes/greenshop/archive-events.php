@@ -1,7 +1,7 @@
 <?php
 get_header();
 ?>
-<div class="events">
+<section class="events">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -33,21 +33,25 @@ get_header();
                     while (have_posts()):
                         the_post(); ?>
 
-                        <article id="<?php the_ID(); ?>" <?php post_class('Event'); ?>>
+                        <article id="<?php the_ID(); ?>" <?php post_class('event'); ?>>
                             <h3>
-                                <?php the_title(); ?>
+                                <a href="<?= the_permalink(); ?>">
+                                    <?php the_title(); ?>
+                                </a>
                                 <?php the_post_thumbnail(); ?>
                             </h3>
-                            <?php
-                            printEventsCategories($post->id);
-                            ?>
+                            <ul class="event__categories">
+                                <?php
+                                printEventsCategories($post->id, 'li');
+                                ?>
+                            </ul>
                             <span>
                                 <?= the_excerpt(); ?>
                             </span>
                             <p>
 
                             </p>
-                            <a href="<?= the_permalink(); ?>">
+                            <a class="event__button" href="<?= the_permalink(); ?>">
                                 See more
                             </a>
                         </article>
@@ -65,7 +69,7 @@ get_header();
             </div>
         </div>
     </div>
-</div>
+</section>
 <?php
 get_sidebar('events');
 

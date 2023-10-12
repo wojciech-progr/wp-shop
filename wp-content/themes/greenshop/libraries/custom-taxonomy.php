@@ -116,27 +116,43 @@ function greenshop_init_taxonomies()
     );
 }
 
-function printPostCategories($post_id, array $categories = array())
+/* 
+Gets all custom taxonomies categories of Your choice
+
+$post_id - id of the post
+$categories - array of taxonomies that You want to get
+$additional_html_tag - eg. 'li'. Openings and closing tags are included
+*/
+function printPostCategories($post_id, array $categories = array(), $additional_html_tag = false)
 {
-    $terms_list = array();
     foreach ($categories as $cname) {
 
-        $tmp = get_the_terms($post_id, $cname);
-        if (is_array($tmp)) {
-            $terms_list = array_merge($terms_list, $tmp);
-        }
+        $terms_list = get_the_terms($post_id, $cname);
 
         if ($terms_list) {
-            foreach ($terms_list as $term) {
-                echo '<a href="' . get_term_link($term->slug, $term->taxonomy) . '">' . $term->name . '</a> ';
+
+            /* Logic for an additional HTML tag */
+            if ($additional_html_tag != false) {
+                foreach ($terms_list as $term) {
+                    echo '<' . $additional_html_tag . '>' . '<a href="' . get_term_link($term->slug, $term->taxonomy) . '">' . $term->name . '</a>' . '</' . 'li' . '>';
+                }
+            } else {
+                foreach ($terms_list as $term) {
+                    echo '<a href="' . get_term_link($term->slug, $term->taxonomy) . '">' . $term->name . '</a> ';
+                }
             }
+
+        } else {
+            /* 
+            todo - need logic to not spawn <ul> tag when there are no categories
+            */
         }
     }
 }
 
-function printEventsCategories($post_id)
+function printEventsCategories($post_id, $additional_html_tag = false)
 {
-    printPostcategories($post_id, array('Locations'));
+    printPostcategories($post_id, array('Locations'), $additional_html_tag);
 }
 
 ?>
