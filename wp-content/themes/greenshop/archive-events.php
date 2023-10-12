@@ -33,24 +33,21 @@ get_header();
                     while (have_posts()):
                         the_post(); ?>
 
-                        <article id="<?php the_ID(); ?>" <?php post_class('one-post'); ?>>
+                        <article id="<?php the_ID(); ?>" <?php post_class('Event'); ?>>
                             <h3>
                                 <?php the_title(); ?>
+                                <?php the_post_thumbnail(); ?>
                             </h3>
-                            <ul>
-                                <li>Metallica</li>
-                                <li>Poland</li>
-                                <li>Warsaw</li>
-                                <li>Concert</li>
-                            </ul>
+                            <?php
+                            printEventsCategories($post->id);
+                            ?>
                             <span>
-                                Short description lorem ipsum dolor Short description lorem ipsum dolor Short description lorem
-                                ipsum dolor Short description lorem ipsum dolor
+                                <?= the_excerpt(); ?>
                             </span>
                             <p>
 
                             </p>
-                            <a href="#">
+                            <a href="<?= the_permalink(); ?>">
                                 See more
                             </a>
                         </article>
@@ -60,7 +57,7 @@ get_header();
                 else:
                     ?>
 
-                    Nie ma postów
+                    Found 0 events.
 
                     <?php
                 endif;
