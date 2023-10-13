@@ -481,6 +481,7 @@ section:nth-child(2n) {
   padding: 10px 15px;
   background-color: #ffc000;
   font-size: 25px;
+  margin-bottom: 10px;
 
 }
 

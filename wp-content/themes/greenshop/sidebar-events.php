@@ -1,5 +1,3 @@
-<?php
-
-?>
-
-Sidebar!
+<div class="col-md-3">
+    Sidebar!
+</div>

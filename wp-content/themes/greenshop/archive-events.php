@@ -1,11 +1,11 @@
 <?php
 get_header();
 ?>
-<section class="events">
+<section class="intro">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h1>Upcoming music events</h1>
+                <h1 class="intro__mainTitle">Upcoming music events</h1>
                 <p>
                     Check the list of events divided by city and make your choice. Have fun at a concert of your
                     favorite
@@ -15,19 +15,21 @@ get_header();
                 </p>
             </div>
             <div class="col-md-6">
-                <div class="promotedEvent">
+                <div class="intro__promoted">
                     promoted event 1
                 </div>
-                <div class="promotedEvent">
+                <div class="intro__promoted">
                     promoted event 2
                 </div>
             </div>
         </div>
     </div>
+</section>
+<section class="events">
     <div class="container">
         <div class="row">
             <h2>Event list:</h2>
-            <div class="col-md-12">
+            <div class="col-md-8">
                 <?php
                 if (have_posts()):
                     while (have_posts()):
@@ -38,13 +40,15 @@ get_header();
                                 <a href="<?= the_permalink(); ?>">
                                     <?php the_title(); ?>
                                 </a>
-                                <?php the_post_thumbnail(); ?>
                             </h3>
                             <ul class="event__categories">
                                 <?php
                                 printEventsCategories($post->id, 'li');
                                 ?>
                             </ul>
+                            <div>
+                                <?php the_post_thumbnail(); ?>
+                            </div>
                             <span>
                                 <?= the_excerpt(); ?>
                             </span>
@@ -67,11 +71,12 @@ get_header();
                 endif;
                 ?>
             </div>
+            <?php
+            get_sidebar('events');
+            ?>
         </div>
     </div>
 </section>
 <?php
-get_sidebar('events');
-
 get_footer();
 ?>
