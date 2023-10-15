@@ -37,10 +37,11 @@ get_header();
 
                         <article id="<?php the_ID(); ?>" <?php post_class('event'); ?>>
                             <h3>
-                                <a href="<?= the_permalink(); ?>">
+                                <a class="event__title" href="<?= the_permalink(); ?>">
                                     <?php the_title(); ?>
                                 </a>
                             </h3>
+                            <span class="event__date">15.10.2023</span>
                             <ul class="event__categories">
                                 <?php
                                 printEventsCategories($post->id, 'li');
@@ -48,6 +49,8 @@ get_header();
                             </ul>
                             <div>
                                 <?php the_post_thumbnail(); ?>
+                                <img class="event__image" width="" height="300pxpx" alt=""
+                                    src="<?= GREENSHOP_THEME_URL ?>/images/bricks.jpeg">
                             </div>
                             <span>
                                 <?= the_excerpt(); ?>
