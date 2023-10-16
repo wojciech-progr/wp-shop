@@ -33,7 +33,10 @@ get_header();
                 <?php
                 if (have_posts()):
                     while (have_posts()):
-                        the_post(); ?>
+                        the_post();
+
+                        $event_custom_values = get_post_custom_values('ranking');
+                        ?>
 
                         <article id="<?php the_ID(); ?>" <?php post_class('event'); ?>>
                             <h3>
@@ -47,6 +50,15 @@ get_header();
                                 printEventsCategories($post->id, 'li');
                                 ?>
                             </ul>
+                            <?php
+                            if (!empty($event_custom_values[0])) {
+                                ?>
+                                <span class="event__ranking">
+                                    <?= $event_custom_values[0]; ?>
+                                </span>
+                                <?php
+                            }
+                            ?>
                             <div>
                                 <?php the_post_thumbnail(); ?>
                                 <img class="event__image" width="" height="300pxpx" alt=""
