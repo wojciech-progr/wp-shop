@@ -208,7 +208,7 @@
     </section>
     <section class="opinions">
         <h2 class="opinions__heading">Recent comments</h2>
-        <div class="splide">
+        <div id="splide" class="splide">
             <div class="splide__track">
                 <ul class="splide__list">
 

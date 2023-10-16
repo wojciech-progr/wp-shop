@@ -33,13 +33,17 @@ function adjustsubElementSize(mainElementWidth, subElement) {
   subElement.style.width = mainElementWidth + "px";
 }
 
-document.addEventListener( 'DOMContentLoaded', function() {
-  var splide = new Splide( '.splide', {
-    type   : 'loop',
-    perPage: 3,
-    interval: 8000,
-    autoplay: true
-  } );
+// Settings for opinions Splide carousel
+document.addEventListener('DOMContentLoaded', function () {
+  var carousel = document.getElementById('splide');
+  if (carousel) {
+    var splide = new Splide('#splide', {
+      type: 'loop',
+      perPage: 3,
+      interval: 8000,
+      autoplay: true
+    });
 
-  splide.mount();
+    splide.mount();
+  }
 });
