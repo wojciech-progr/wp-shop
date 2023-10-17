@@ -48,3 +48,4 @@ wp-config.php
 wp-content/ai1wm-backups
 wp-content/plugins/all-in-one-wp-migration
 .htaccess
+*.code-workspace
