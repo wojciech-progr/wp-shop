@@ -8,8 +8,8 @@ add more elements to first line of function if needed
 
 */
 function showSubElement(mainElement) {
-  var subElement = mainElement.getElementsByTagName("ul");
-  var subElementStyle = getComputedStyle(subElement[0]).getPropertyValue(
+  let subElement = mainElement.getElementsByTagName("ul");
+  let subElementStyle = getComputedStyle(subElement[0]).getPropertyValue(
     "display"
   );
 
@@ -35,9 +35,9 @@ function adjustsubElementSize(mainElementWidth, subElement) {
 
 // Settings for opinions Splide carousel
 document.addEventListener('DOMContentLoaded', function () {
-  var carousel = document.getElementById('splide');
+  let carousel = document.getElementById('splide');
   if (carousel) {
-    var splide = new Splide('#splide', {
+    let splide = new Splide('#splide', {
       type: 'loop',
       perPage: 3,
       interval: 8000,
