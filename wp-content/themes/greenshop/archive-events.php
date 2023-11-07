@@ -16,10 +16,10 @@ get_header();
             </div>
             <div class="col-md-6">
                 <div class="intro__promoted">
-                    promoted event 1
+                    <span>promoted event 1</span>
                 </div>
                 <div class="intro__promoted">
-                    promoted event 2
+                    <span>promoted event 2</span>
                 </div>
             </div>
         </div>

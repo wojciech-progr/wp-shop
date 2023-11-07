@@ -18,7 +18,7 @@
                 </p>
                 <span class="popular__counter">1333 views this month</span>
             </article>
-        </a href="">
+        </a>
         <a href="#" class="popular__article">
             <article>
                 <h3 class="popular__title">Event title</h3>
@@ -30,7 +30,7 @@
                 </p>
                 <span class="popular__counter">1333 views this month</span>
             </article>
-        </a href="">
+        </a>
         <a href="#" class="popular__article">
             <article>
                 <h3 class="popular__title">Event title</h3>
@@ -42,6 +42,6 @@
                 </p>
                 <span class="popular__counter">1333 views this month</span>
             </article>
-        </a href="">
+        </a>
     </div>
 </div>

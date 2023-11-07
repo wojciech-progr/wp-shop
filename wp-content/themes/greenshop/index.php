@@ -87,7 +87,7 @@
         </ul>
     </section>
     <section class="joinUs">
-        <h2 class="joinUs__heading"> Get Your free account now!</h2>
+        <h2 class="joinUs__heading">Get Your free account now!</h2>
         <div class="container">
             <div class="row equal">
                 <div class="col-md-6 align-middle">
@@ -161,47 +161,39 @@
         <ul class="features__list">
             <li class="features__feature">
                 <div class="features__title">
-                    Best prices
+                    <span>Best prices</span>
                 </div>
                 <p class="features__description">
-                    <i>
                         We never overprice our products so you can expand your collection of musical instruments
                         at
                         a reasonable price
-                    </i>
                 </p>
             </li>
             <li class="features__feature">
                 <div class="features__title">
-                    Enthusiasts by nature
+                    <span>Enthusiasts by nature</span>
                 </div>
                 <p class="features__description">
-                    <i>
                         The specialists working in our store are a team directly related to the world of music
-                    </i>
                 </p>
             </li>
             <li class="features__feature">
                 <div class="features__title">
-                    Years of service
+                    <span>Years of service</span>
                 </div>
                 <p class="features__description">
-                    <i>
                         Our brand has been built over the years, which resulted in the trust of hundreds of
                         customers.
-                    </i>
                 </p>
             </li>
             <li class="features__feature">
                 <div class="features__title">
-                    Up-to-date blog
+                    <span>Up-to-date blog</span>
                 </div>
                 <p class="features__description">
-                    <i>
                         Instantly learn about the most interesting news from the world of music or deepen your
                         knowledge
                         of this subject.
-                    </i>
                 </p>
             </li>
         </ul>
