@@ -164,9 +164,9 @@
                     <span>Best prices</span>
                 </div>
                 <p class="features__description">
-                        We never overprice our products so you can expand your collection of musical instruments
-                        at
-                        a reasonable price
+                    We never overprice our products so you can expand your collection of musical instruments
+                    at
+                    a reasonable price
                 </p>
             </li>
             <li class="features__feature">
@@ -174,7 +174,7 @@
                     <span>Enthusiasts by nature</span>
                 </div>
                 <p class="features__description">
-                        The specialists working in our store are a team directly related to the world of music
+                    The specialists working in our store are a team directly related to the world of music
                 </p>
             </li>
             <li class="features__feature">
@@ -182,8 +182,8 @@
                     <span>Years of service</span>
                 </div>
                 <p class="features__description">
-                        Our brand has been built over the years, which resulted in the trust of hundreds of
-                        customers.
+                    Our brand has been built over the years, which resulted in the trust of hundreds of
+                    customers.
                 </p>
             </li>
             <li class="features__feature">
@@ -191,9 +191,9 @@
                     <span>Up-to-date blog</span>
                 </div>
                 <p class="features__description">
-                        Instantly learn about the most interesting news from the world of music or deepen your
-                        knowledge
-                        of this subject.
+                    Instantly learn about the most interesting news from the world of music or deepen your
+                    knowledge
+                    of this subject.
                 </p>
             </li>
         </ul>
@@ -203,52 +203,36 @@
         <div id="splide" class="splide">
             <div class="splide__track">
                 <ul class="splide__list">
-
-                    <?php
-                    $args = array(
-                        'number' => 9,
-                        'orderby' => 'comment_ID'
-                    );
-                    $comments = get_comments(array('post_id' => 54));
-
-                    foreach ($comments as $comment) {
-                        ?>
+                    <?php $comments = get_comments(array('post_id' => 54)); ?>
+                    <?php foreach ($comments as $comment): ?>
                         <li class="splide__slide">
                             <div class="opinions__opinion">
-                                <p>
-                                    <?= get_avatar($comment->user_id, 100, $default = '', $alt = '', $args = array('class' => 'opinions__avatar')) ?>
+                                <?= get_avatar($comment->user_id, 100, $default = '', $alt = '', $args = array('class' => 'opinions__avatar')) ?>
                                 <div>
                                     <q>
                                         <?= $comment->comment_content; ?>
                                     </q>
-                                    -&nbsp;
-                                    <?= $comment->comment_author ?>,
+                                    <span>
+                                        <?= $comment->comment_author ?>
+                                    </span>
                                     <?php
-
                                     /* Informations about post */
-
                                     $post = get_post($comment->post_id);
                                     $post_date = date('d-m-y', strtotime($post->post_date));
                                     $post_title = wp_trim_words($post->post_title, $num_words = 4, $more = ' [...]');
                                     $post_link = get_permalink($comment->post_id, $leavename = false);
-
                                     ?>
                                     <a href="<?= $post_link ?>">
                                         <?= $post_title ?>
                                     </a>,
                                     <?= $post_date ?>
                                 </div>
-                                </p>
                             </div>
                         </li>
-                        <?php
-                    }
-                    ?>
-
+                    <?php endforeach; ?>
                 </ul>
             </div>
         </div>
     </section>
 </main>
-
 <?php get_footer('home'); ?>

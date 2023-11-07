@@ -2,22 +2,16 @@
 <html <?php language_attributes(); ?>>
 
 <head>
-
     <meta charset=<?php bloginfo('charset'); ?>>
-    <?php /* If this is search site do not allow indexing (for example google) */?>
     <?php if (is_search()): ?>
         <meta name="robots" content="noindex, nofollow" />
     <?php endif; ?>
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>
         <?= get_bloginfo('name') ?>
     </title>
-
     <meta name="description" content="example description of site">
     <link rel="pingback" href="<?= bloginfo('pingback_url'); ?>">
-
     <link rel="icon" type="image/x-icon" href="<?= GREENSHOP_THEME_URL ?>/images/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -29,7 +23,6 @@
     <link rel="stylesheet" href="<?= GREENSHOP_THEME_URL ?>/css/styles-js.css" />
     <link rel="stylesheet" href="<?= GREENSHOP_THEME_URL ?>/css/mobile.css" />
     <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
-
     <script src="<?= GREENSHOP_THEME_URL ?>/js/functions.js"></script>
     <script src="<?= GREENSHOP_THEME_URL ?>/js/scripts.js"></script>
     <script src="https://kit.fontawesome.com/fc9a6b4d3f.js" crossorigin="anonymous"></script>
@@ -37,15 +30,8 @@
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
         </script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-
-    <?php /* Informs another websites that i am linking to them */?>
-
-    <?php /* Action hook - Plugins uses that, so they dont have to edit theme files directly. */?>
     <?= wp_head(); ?>
-
 </head>
-
-<?php /* Adds classes depending on the site, for example 404 or if user is logged in  */?>
 
 <body <?= body_class(); ?>>
     <header>
@@ -109,8 +95,7 @@
                                 </a>
                             </li>
                             <li class="breadcrumbs__piece">
-                                <span class="breadcrumbs__piece--current">Jackson JS12 DKA Dinky AH FB
-                                </span>
+                                <span class="breadcrumbs__piece--current">Jackson JS12 DKA Dinky AH FB</span>
                             </li>
                         </ol>
                     </div>
