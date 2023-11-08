@@ -1,7 +1,7 @@
 <div class="col-md-4">
     <div class="popular">
         <h2 class="popular__heading">
-            Most popular <br> upcoming events
+            Most popular upcoming events
         </h2>
         <p class="popular__subHeading">
             Check out the most popular events
