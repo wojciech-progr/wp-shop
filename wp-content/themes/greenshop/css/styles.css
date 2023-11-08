@@ -502,6 +502,7 @@ section:nth-child(2n) {
 
 .popular__heading {
   margin-bottom: 10px;
+  max-width: 260px;
 }
 
 .popular__image {
