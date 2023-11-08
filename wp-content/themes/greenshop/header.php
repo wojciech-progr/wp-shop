@@ -17,12 +17,12 @@
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?= GREENSHOP_THEME_URL ?>/style.css" />
     <link rel="stylesheet" href="<?= GREENSHOP_THEME_URL ?>/css/styles.css" />
     <link rel="stylesheet" href="<?= GREENSHOP_THEME_URL ?>/css/styles-js.css" />
     <link rel="stylesheet" href="<?= GREENSHOP_THEME_URL ?>/css/mobile.css" />
-    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
     <script src="<?= GREENSHOP_THEME_URL ?>/js/functions.js"></script>
     <script src="<?= GREENSHOP_THEME_URL ?>/js/scripts.js"></script>
     <script src="https://kit.fontawesome.com/fc9a6b4d3f.js" crossorigin="anonymous"></script>
