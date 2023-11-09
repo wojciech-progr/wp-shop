@@ -212,7 +212,7 @@ section:nth-child(2n) {
   padding-bottom: 10px;
   padding-top: 10px;
   background-color: white;
-  transition: 1s;
+  transition: background-color 1s;
 }
 
 .navbar__submenuOption:hover {
