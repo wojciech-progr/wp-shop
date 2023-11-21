@@ -134,11 +134,11 @@ function printPostCategories($post_id, array $categories = array(), $additional_
             /* Logic for an additional HTML tag */
             if ($additional_html_tag != false) {
                 foreach ($terms_list as $term) {
-                    echo '<' . $additional_html_tag . '>' . '<a href="' . get_term_link($term->slug, $term->taxonomy) . '">' . $term->name . '</a>' . '</' . 'li' . '>';
+                    echo '<' . $additional_html_tag . '>' . '<a class="event__category" href="' . get_term_link($term->slug, $term->taxonomy) . '">' . $term->name . '</a>' . '</' . 'li' . '>';
                 }
             } else {
                 foreach ($terms_list as $term) {
-                    echo '<a href="' . get_term_link($term->slug, $term->taxonomy) . '">' . $term->name . '</a> ';
+                    echo '<a class="event__category" href="' . get_term_link($term->slug, $term->taxonomy) . '">' . $term->name . '</a> ';
                 }
             }
 
