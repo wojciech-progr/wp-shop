@@ -529,3 +529,7 @@ section:nth-child(2n) {
 .event__title {
 	color: black;
 }
+
+.event__image {
+	margin-bottom: 15px;
+}
